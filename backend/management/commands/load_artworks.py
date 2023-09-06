@@ -13,9 +13,11 @@ class Command(BaseCommand):
             artworks_data = json.load(f)
 
         for artwork_data in artworks_data:
-            artist_id = artwork_data.pop('artist')  # Remove 'artist' from artwork_data and get the artist_id
+            artist_id = artwork_data.pop('artist', 1)  # Replace 1 with the actual ID of the default artist
             artist = Artist.objects.get(id=artist_id)  # Retrieve the Artist instance
             artwork = Artwork(artist=artist, **artwork_data)  # Associate the artist with the artwork
             artwork.save()
+
+            
 
         self.stdout.write(self.style.SUCCESS('Data loaded successfully.'))

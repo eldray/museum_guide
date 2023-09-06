@@ -10,6 +10,13 @@ class Exhibit(models.Model):
     end_date = models.DateField()
     artists = models.CharField(max_length=100, blank=True, null=True)
 
+class Movements(models.Model):
+    id = models.AutoField(primary_key=True)
+    title = models.CharField(max_length=200)
+    description = models.TextField()
+    artists = models.CharField(max_length=100, blank=True, null=True)
+    image = models.ImageField(upload_to='movement_images/')
+
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     favorites = models.ManyToManyField(Exhibit, blank=True)  
@@ -92,6 +99,7 @@ class Artist(models.Model):
 class Artwork(models.Model):
     id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=200)
+    by_artist = models.CharField(max_length=100,blank=True, null=True)
     artist = models.ForeignKey(Artist, on_delete=models.CASCADE)
     description = models.TextField()
     image = models.ImageField(upload_to='artwork_images/')

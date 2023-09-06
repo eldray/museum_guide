@@ -9,12 +9,13 @@ from django.db.models import Q
 from rest_framework import generics, permissions, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .models import Exhibit, Artwork, Artist, User, UserProfile, ArtistProfile
+from .models import Exhibit, Artwork, Artist, Movements, User, UserProfile, ArtistProfile
 from .serializers import (
     ArtistProfileSerializer,
     UserProfileSerializer,
     ArtworkSerializer,
     ExhibitSerializer,
+    MovementSerializer,
     ArtistSerializer,
     UserSerializer,
 )
@@ -101,6 +102,10 @@ import os
 import json
 from rest_framework.response import Response
 
+class MovementsView(generics.ListAPIView):
+    queryset = Movements.objects.all()
+    serializer_class = MovementSerializer
+
 class ExhibitDetailView(generics.RetrieveAPIView):
     queryset = Exhibit.objects.all()
     serializer_class = ExhibitSerializer
@@ -133,12 +138,14 @@ def search(request):
     matched_artworks = Artwork.objects.filter(Q(title__icontains=query) | Q(artist__name__icontains=query))
     matched_exhibits = Exhibit.objects.filter(title__icontains=query)
     matched_artists = Artist.objects.filter(name__icontains=query)
+    matched_movements = Movements.objects.filter(title__icontains=query)
 
     # Combine and serialize the results
     search_results = {
         'artworks': ArtworkSerializer(matched_artworks, many=True).data,
         'exhibits': ExhibitSerializer(matched_exhibits, many=True).data,
         'artists': ArtistSerializer(matched_artists, many=True).data,
+        'artists': MovementSerializer(matched_movements, many=True).data,
     }
     
     return JsonResponse(search_results)

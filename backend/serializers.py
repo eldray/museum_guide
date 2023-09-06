@@ -1,11 +1,15 @@
 from rest_framework import serializers
-from .models import ArtistProfile, UserProfile, Exhibit, Artwork, Artist, User
+from .models import ArtistProfile, UserProfile, Exhibit, Artwork, Artist, User, Movements
 
 class ArtistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Artist
         fields = '__all__'
 
+class MovementSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Movements
+        fields = '__all__'
 
 class ExhibitSerializer(serializers.ModelSerializer):
     class Meta:

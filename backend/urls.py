@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from . import views
 
 from .views import (
-
+    MovementsView,
     ArtistProfileView,
     ExhibitListView,
     ExhibitDetailView,
@@ -29,6 +29,8 @@ urlpatterns = [
     path('api/artist-models/', views.ArtistModelList.as_view(), name='artist-model-list'),
     path('api/artworks/', ArtworksListView.as_view(), name='artworks-list'),
     path('api/artworks/<int:id>/', views.ArtworkDetailView.as_view(), name='artwork-detail'),
+
+    path('api/movements/', MovementsView.as_view(), name='movements-list'),
 
     path('api/exhibits/', ExhibitListView.as_view(), name='exhibit-list'),
     path('api/exhibits/<int:id>/', ExhibitDetailView.as_view(), name='exhibit-detail'),

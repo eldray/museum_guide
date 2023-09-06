@@ -1,10 +1,10 @@
-[
+﻿[
     {
         "id": 1,
         "name": "Leonardo Da Vinci",
         "biography": "Leonardo Da Vinci is often the go-to answer when you ask people about famous artists. This man was not only an artist but also an engineer and scientist. Because of this, many believe Da Vinci to be a genius. In fact, people often call him the Renaissance man. Of course, Da Vinci is arguably one of the best artists of all time. The classic paintings, The Last Supper and Mona Lisa, are both by Da Vinci. Today, he continues to be one of the most influential artists in Western art. He even has a museum dedicated solely to him in his hometown, Vinci. The Renaissance Man, Leonardo is identified with genius, not only for masterpieces such as the Mona Lisa the title for which has entered the language as a superlative, The Last Supper and The Lady with an Ermine, but also for his drawings of technologies - aircraft, tanks, automobile that were five hundred years in the future.",
         "image_path": "images/davinci.jpg",
-        "years_active": "1452 � 1519",
+        "years_active": "1452 - 1519",
         "art_movement": "High Renaissance",
         "art_medium": "Painting, Sculpture, Architecture"
     },
@@ -29,9 +29,9 @@
     {
         "id": 4,
         "name": "Vincent Van Gogh",
-        "biography": "Even if you aren't familiar with other famous artists, you've likely heard of Vincent Van Gogh.Van Gogh is the one-eared artist. This Dutch painter is famous for not only his paintings but his life story as well. Van Gogh did not live an easy life. In fact, he did not get to experience the success of his career.People only came to appreciate his works after he passed away. While he was still alive, he struggled with his mental health. He suffered from psychotic episodes. Also, he wasn�t in the best shape physically. He often drank and did not eat well. In a fit of rage, he cut off a part of his left ear.Despite this, he made amazing art. People saw him as a misunderstood genius and a �tortured artist.� His paintings are some of the most expensive in the world.",
+        "biography": "Even if you aren't familiar with other famous artists, you've likely heard of Vincent Van Gogh.Van Gogh is the one-eared artist. This Dutch painter is famous for not only his paintings but his life story as well. Van Gogh did not live an easy life. In fact, he did not get to experience the success of his career.People only came to appreciate his works after he passed away. While he was still alive, he struggled with his mental health. He suffered from psychotic episodes. Also, he wasn�t in the best shape physically. He often drank and did not eat well. In a fit of rage, he cut off a part of his left ear.Despite this, he made amazing art. People saw him as a misunderstood genius and a tortured artist.� His paintings are some of the most expensive in the world.",
         "image_path": "images/davinci (4).jpg",
-        "years_active": "1853 � 1890",
+        "years_active": "1853 - 1890",
         "art_movement": "Post-Impressionism",
         "art_medium": "Painting"
     },
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "name": "Andy Warhol",
-        "biography": "Andy Warhol is an American artist and filmmaker. He did not venture into acting, but his popularity was much like a celebrity�s. He bridged mainstream media and fine art together with his performance arts, films, and other pieces.Some of his experimental films include The Chelsea Girls (1966) and Blue Movie (1969). As a filmmaker, his trademark was producing plotless and erotic films.Warhol almost died in a shooting incident in 1968. Valerie Solanas, an underground film star, shot Warhol in his own studio. The 1996 film I Shot Andy Warhol actually depicts this scary experience.Technically, Warhol didn�t invent Pop Art, but he became the Pope of Pop by taking the style out of the art world and bringing it into the world of fashion and celebrity. Starting out as a commercial artist, he brought the ethos of advertising into fine art, even going so far as to say, Making money is art. Such sentiments blew away the existential pretensions of Abstract Expressionism. Although hes famous for subjects such as Campbells Soup, Marilyn Monroe and Elvis Presley",
+        "biography": "Andy Warhol is an American artist and filmmaker. He did not venture into acting, but his popularity was much like a celebrity�s. He bridged mainstream media and fine art together with his performance arts, films, and other pieces.Some of his experimental films include The Chelsea Girls (1966) and Blue Movie (1969). As a filmmaker, his trademark was producing plotless and erotic films.Warhol almost died in a shooting incident in 1968. Valerie Solanas, an underground film star, shot Warhol in his own studio. The 1996 film I Shot Andy Warhol actually depicts this scary experience.Technically, Warhol didn't invent Pop Art, but he became the Pope of Pop by taking the style out of the art world and bringing it into the world of fashion and celebrity. Starting out as a commercial artist, he brought the ethos of advertising into fine art, even going so far as to say, Making money is art. Such sentiments blew away the existential pretensions of Abstract Expressionism. Although hes famous for subjects such as Campbells Soup, Marilyn Monroe and Elvis Presley",
         "image_path": "images/davinci (6).jpg",
         "years_active": "1928 - 1987",
         "art_movement": "Pop Art",
@@ -92,9 +92,9 @@
     {
         "id": 11,
         "name": "Edvard Munch",
-        "biography": "Munch is a Norwegian painter who lived a hard life. During childhood to adulthood, he was surrounded by illness within his family. This led to Munch developing a nihilistic attitude. His works explored existentialism and angst. The Scream is arguably one of the most iconic paintings ever. You can see it referenced almost everywhere. Films, ads, and books mention or parody Edvard Munch�s painting. However, not many people know more about one of the most famous artists in the world. Munch painted The Scream after he heard �the enormous, infinite scream of nature.� The painting highlights the emotional and psychological anxiety that Munch often experiences.",
+        "biography": "Munch is a Norwegian painter who lived a hard life. During childhood to adulthood, he was surrounded by illness within his family. This led to Munch developing a nihilistic attitude. His works explored existentialism and angst. The Scream is arguably one of the most iconic paintings ever. You can see it referenced almost everywhere. Films, ads, and books mention or parody Edvard Munch�s painting. However, not many people know more about one of the most famous artists in the world. Munch painted The Scream after he heard �the enormous, infinite scream of nature. The painting highlights the emotional and psychological anxiety that Munch often experiences.",
         "image_path": "images/munch.jpg",
-        "years_active": "1863 � 1944",
+        "years_active": "1863 - 1944",
         "art_movement": "Expressionism and Symbolism",
         "art_medium": "Painting, Graphic art"
     },
@@ -103,7 +103,7 @@
         "name": "Jean-Antoine Watteau",
         "biography": "Watteau was arguably the greatest French painter of the 18th-century, a transitional figure between Baroque art and the Roccoco style that followed. He emphasized color and movement, structuring his compositions so that they almost resembled theater scenes, but it was the atmospheric quality of his work that would become highly influential for artists like J.M.W Turner and the Impressionists.",
         "image_path": "images/Watteau.jpg",
-        "years_active": "1684�1721",
+        "years_active": "1684-1721",
         "art_movement": "Impressionism, ",
         "art_medium": "Painting"
     },
@@ -112,7 +112,7 @@
         "name": "Gustave Courbet",
         "biography": "During the mid-1900s, Realism rose as a new movement. This was a movement that rejected Romanticism and instead embraced the plain and flawed imitations of reality. Among the famous artists who pioneered this movement is Gustave Courbet.Courbet was a political man. He often expressed support for the peasants of his own hometown. He did so by making them the subjects of his paintings. Aside from this, Courbet also frequently painted female nudes. Many found Courbet�s paintings to be vulgar and distasteful. Thus, he is often a controversial artist for many.",
         "image_path": "images/Gustave Courbet.jpg",
-        "years_active": "1819 � 1877",
+        "years_active": "1819 - 1877",
         "art_movement": "Realism",
         "art_medium": "Painting, Sculpture"
     },
@@ -121,27 +121,27 @@
         "name": "Salvador Dali",
         "biography": "Among famous Spanish artists, Salvador Dali often tops the list. In fact, Dali is the world's most famous Surrealist artist. As a Surrealist, Dali reimagines the physical reality by tapping into his subconscious imagery. He takes notes from Sigmund Freud's psychology. Furthermore, he even hypnotizes himself in an act called paranoiac critical. While this happens, he enters a state where he hallucinates images from his subconscious.Many consider Dali's works to be bizarre and abstract. Thus, a lot of his work is left to interpretation. During the late 1930s, Dali also dabbled in theater. He designed sets, interiors, and also jewelry. ",
         "image_path": "images/davinci (6).jpg",
-        "years_active": "1904 � 1989",
+        "years_active": "1904 - 1989",
         "art_movement": "Cubism, Dadaism, and Surrealism",
         "art_medium": "Painting, photography, sculpture, and film"
     },
     {
         "id": 15,
-        "name": "Da Vinci",
-        "biography": "I am an artist who...",
-        "image_path": "images/Salvador Dali.jpg",
-        "years_active": "www.picasso.com",
-        "art_movement": "www.picasso.com",
-        "art_medium": "www.picasso.com"
+        "name": "Mary Cassatt",
+        "biography": "Despite being an American, Mary Cassatt lived in France. There, she met many famous artists, including Edgar Degas. Along with Degas, Cassatt was an artist of Impressionism. Thus, her style consisted of bright, pastel colors and visible brushstrokes. Cassatt often painted women and their daily lives.Thus, it does not come as a surprise when Cassatt is often linked to feminists of the late 1800s. Cassatt supported the suffrage movement, and she showed this by participating in exhibitions supporting women’s right to vote.Lastly, Cassatt is one of the most famous female artists of Impressionism, and people often call her one of the “three great ladies” of this movement.",
+        "image_path": "images/Cassatt.jpg",
+        "years_active": "1844  1926",
+        "art_movement": "Impressionism",
+        "art_medium": "Painting"
     },
     {
         "id": 16,
-        "name": "Da Vinci",
-        "biography": "I am an artist who...",
-        "image_path": "images/davinci (6).jpg",
-        "years_active": "www.picasso.com",
-        "art_movement": "www.picasso.com",
-        "art_medium": "www.picasso.com"
+        "name": "Edgar Degas",
+        "biography": "Edgar Degas is one of the most famous artists from France. Born to a wealthy family in Paris, Degas had the means to pursue art at a young age. In fact, he even had his own studio at home.If you observe most of his paintings, you’ll notice that the subject matter often deals with dance. He has numerous paintings of ballet dancers. Some of his other portraits captured horse-racing and nude women. Despite the fact that many people call him and his style “Impressionist,” Degas rejects this term. He prefers to call himself a “Realist.”",
+        "image_path": "images/degas.jpg",
+        "years_active": "1834 – 1917",
+        "art_movement": "Impressionism",
+        "art_medium": "Painting, Sculpture"
     },
     {
         "id": 17,

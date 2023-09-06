@@ -1,0 +1,23 @@
+python manage.py load_artists
+
+python manage.py load_artworks
+
+python manage.py load_exhibits
+
+python manage.py load_movements
+
+python manage.py makemigrations  
+
+python manage.py migrate   
+
+python manage.py runserver      
+
+ART_MEDIUM = [
+        ('painter', 'Painter'),
+        ('drawing', 'Drawing'),
+        ('sculpture', 'Sculpture'),
+        ('graphic design', 'Graphic Design'),
+        ('textile design', 'Textile Design'),
+        ('photographer', 'Photographer'),
+	('architecture', 'Architecture')
+    ]
