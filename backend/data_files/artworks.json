@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "Artwork 1",
+      "artist": 1,
+      "description": "This is the description of Artwork 1.",
+      "image": "static/images/davinci (2).jpg",
+      "price": 100.00
+    },
+    {
+      "id": 2,
+      "title": "Monalisa",
+      "artist": 1,
+      "description": "This is the description of Artwork 1.",
+      "image": "static/images/davinci (2).jpg",
+      "price": 100.00
+    }
+  ]
+  

@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "title": "Artwork 1",
+        "artist": "Da Vinci",
+        "description": "This is the description of Artwork 1.",
+        "image_path": "images/davinci (1).jpg",
+        "price": 100
+    },
+    {
+        "id": 2,
+        "title": "Artwork 2",
+        "artist": "Van Gogh",
+        "description": "This is the description of Artwork 2.",
+        "image_path": "images/davinci (2).jpg",
+        "price": 150
+    },
+    {
+        "id": 3,
+        "title": "Artwork 1",
+        "artist": "Picasso",
+        "description": "This is the description of Artwork 1.",
+        "image_path": "images/davinci (3).jpg",
+        "price": 100
+    },
+    {
+        "id": 4,
+        "title": "Artwork 2",
+        "artist": "Da Vinci",
+        "description": "This is the description of Artwork 2.",
+        "image_path": "images/davinci (4).jpg",
+        "price": 150
+    },
+    {
+        "id": 5,
+        "title": "Artwork 1",
+        "artist": "Da Vinci",
+        "description": "This is the description of Artwork 1.",
+        "image_path": "images/davinci (5).jpg",
+        "price": 100
+    },
+    {
+        "id": 6,
+        "title": "Artwork 2",
+        "artist": "Da Vinci",
+        "description": "This is the description of Artwork 2.",
+        "image_path": "images/davinci (6).jpg",
+        "price": 150
+    },
+    {
+        "id": 7,
+        "title": "Artwork 1",
+        "artist": "Da Vinci",
+        "description": "This is the description of Artwork 1.",
+        "image_path": "images/davinci (6).jpg",
+        "price": 100
+      },
+      {
+        "id": 8,
+        "title": "Artwork 2",
+        "artist": "Artist 2",
+        "description": "This is the description of Artwork 2.",
+        "image_path": "images/davinci (6).jpg",
+        "price": 200
+      }
+      ,
+      {
+        "id": 9,
+        "title": "Artwork 2",
+        "artist": "Artist 2",
+        "description": "This is the description of Artwork 2.",
+        "image_path": "images/davinci (6).jpg",
+        "price": 200
+      }
+]

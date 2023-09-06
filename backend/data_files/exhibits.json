@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "title": "Renaissance Revival",
+    "description": "A journey through the rebirth of art and culture.",
+    "image": "static/images/images/davinci (5).jpg",
+    "start_date": "2023-08-15",
+    "end_date": "2023-09-15",
+    "artists": "Various Renaissance Artists"
+  },
+  {
+    "id": 2,
+    "title": "Impressionist Dreams",
+    "description": "Discover the world of Impressionism and its dreamlike paintings.",
+    "image": "static/images/images/davinci (5).jpg",
+    "start_date": "2023-08-10",
+    "end_date": "2023-08-30",
+    "artists": "Claude Monet, Pierre-Auguste Renoir, etc."
+  },
+  {
+    "id": 3,
+    "title": "Modernism Unleashed",
+    "description": "A showcase of the bold and innovative works of modernist artists.",
+    "image": "static/images/modernism.jpg",
+    "start_date": "2023-08-20",
+    "end_date": "2023-09-10",
+    "artists": "Pablo Picasso, Wassily Kandinsky, etc."
+  },
+  {
+    "id": 4,
+    "title": "Surreal Wonderland",
+    "description": "Enter a world of surrealism and explore the bizarre and dreamlike artworks.",
+    "image": "static/images/surrealism.jpg",
+    "start_date": "2023-08-05",
+    "end_date": "2023-08-25",
+    "artists": "Salvador Dali, Rene Magritte, etc."
+  },
+  {
+    "id": 5,
+    "title": "Abstract Expressions",
+    "description": "Dive into the world of abstract art and its expressive forms.",
+    "image": "static/images/abstract.jpg",
+    "start_date": "2023-08-12",
+    "end_date": "2023-09-01",
+    "artists": "Jackson Pollock, Mark Rothko, etc."
+  },
+  {
+    "id": 6,
+    "title": "Ancient Wonders",
+    "description": "Explore ancient art and its timeless beauty.",
+    "image": "static/images/ancient.jpg",
+    "start_date": "2023-08-18",
+    "end_date": "2023-09-08",
+    "artists": "Various Ancient Artists"
+  },
+  {
+    "id": 7,
+    "title": "Nature's Palette",
+    "description": "Admire artworks inspired by the beauty of nature.",
+    "image": "static/images/nature.jpg",
+    "start_date": "2023-08-25",
+    "end_date": "2023-09-15",
+    "artists": "Various Nature Artists"
+  },
+  {
+    "id": 8,
+    "title": "Futuristic Visions",
+    "description": "Experience the future through visionary artworks.",
+    "image": "static/images/futuristic.jpg",
+    "start_date": "2023-08-08",
+    "end_date": "2023-08-28",
+    "artists": "Futuristic Artists"
+  },
+  {
+    "id": 9,
+    "title": "Portraits of Elegance",
+    "description": "Appreciate the grace and elegance in portrait art.",
+    "image": "static/images/portraits.jpg",
+    "start_date": "2023-08-22",
+    "end_date": "2023-09-12",
+    "artists": "Portrait Artists"
+  },
+  {
+    "id": 10,
+    "title": "Cinematic Inspirations",
+    "description": "Discover art influenced by the magic of cinema.",
+    "image": "static/images/cinema.jpg",
+    "start_date": "2023-08-07",
+    "end_date": "2023-08-27",
+    "artists": "Cinema-Inspired Artists"
+  },
+  {
+    "id": 11,
+    "title": "Urban Explorations",
+    "description": "Witness the urban landscape through artistic lenses.",
+    "image": "static/images/urban.jpg",
+    "start_date": "2023-08-17",
+    "end_date": "2023-09-06",
+    "artists": "Urban Artists"
+  },
+  {
+    "id": 12,
+    "title": "Mystical Realms",
+    "description": "Journey into mystical and otherworldly realms of art.",
+    "image": "static/images/mystical.jpg",
+    "start_date": "2023-08-09",
+    "end_date": "2023-08-29",
+    "artists": "Mystical Artists"
+  },
+  {
+    "id": 13,
+    "title": "Tales of History",
+    "description": "Explore history through the brushstrokes of artists.",
+    "image": "static/images/history.jpg",
+    "start_date": "2023-08-14",
+    "end_date": "2023-09-04",
+    "artists": "Historical Artists"
+  },
+  {
+    "id": 14,
+    "title": "Ethnic Expressions",
+    "description": "Celebrate diverse ethnic art forms and expressions.",
+    "image": "static/images/ethnic.jpg",
+    "start_date": "2023-08-28",
+    "end_date": "2023-09-18",
+    "artists": "Ethnic Artists"
+  },
+  {
+    "id": 15,
+    "title": "Contemporary Conversations",
+    "description": "Engage with the discourse of contemporary art.",
+    "image": "static/images/contemporary.jpg",
+    "start_date": "2023-08-11",
+    "end_date": "2023-08-31",
+    "artists": "Contemporary Artists"
+  },
+  {
+    "id": 16,
+    "title": "Abstract Explorations",
+    "description": "Dive deeper into the world of abstract art and its boundless possibilities.",
+    "image": "static/images/abstract2.jpg",
+    "start_date": "2023-09-01",
+    "end_date": "2023-09-21",
+    "artists": "Various Abstract Artists"
+  },
+  {
+    "id": 17,
+    "title": "Sculptures in Motion",
+    "description": "Experience the kinetic beauty of sculptures that come to life.",
+    "image": "static/images/kinetic.jpg",
+    "start_date": "2023-09-05",
+    "end_date": "2023-09-25",
+    "artists": "Kinetic Sculptors"
+  },
+  {
+    "id": 18,
+    "title": "Masters of Miniatures",
+    "description": "Marvel at the intricate details of miniature artworks.",
+    "image": "static/images/miniatures.jpg",
+    "start_date": "2023-09-10",
+    "end_date": "2023-09-30",
+    "artists": "Miniature Artists"
+  },
+  {
+    "id": 19,
+    "title": "Cubist Creations",
+    "description": "Explore the world of Cubism and its fragmented yet fascinating art.",
+    "image": "static/images/cubism.jpg",
+    "start_date": "2023-09-15",
+    "end_date": "2023-10-05",
+    "artists": "Cubist Artists"
+  },
+  {
+    "id": 20,
+    "title": "Magical Realism",
+    "description": "Step into the realm of magical realism and experience art that blurs reality and fantasy.",
+    "image": "static/images/magical_realism.jpg",
+    "start_date": "2023-09-20",
+    "end_date": "2023-10-10",
+    "artists": "Magical Realism Artists"
+  },
+  {
+    "id": 21,
+    "title": "Golden Age Classics",
+    "description": "Revisit the classics from the Golden Age of art and their timeless appeal.",
+    "image": "static/images/golden_age.jpg",
+    "start_date": "2023-09-25",
+    "end_date": "2023-10-15",
+    "artists": "Golden Age Artists"
+  },
+  {
+    "id": 22,
+    "title": "Digital Dreams",
+    "description": "Immerse yourself in the digital realm of art and its innovative expressions.",
+    "image": "static/images/digital_art.jpg",
+    "start_date": "2023-09-30",
+    "end_date": "2023-10-20",
+    "artists": "Digital Artists"
+  },
+  {
+    "id": 23,
+    "title": "Enchanted Forest",
+    "description": "Get lost in the enchanted world of forest-inspired art and its natural wonders.",
+    "image": "static/images/enchanted_forest.jpg",
+    "start_date": "2023-10-05",
+    "end_date": "2023-10-25",
+    "artists": "Forest Artists"
+  },
+  {
+    "id": 24,
+    "title": "Exploring Realms",
+    "description": "Embark on a journey to explore otherworldly realms through art.",
+    "image": "static/images/otherworldly.jpg",
+    "start_date": "2023-10-10",
+    "end_date": "2023-10-30",
+    "artists": "Otherworldly Artists"
+  },
+  {
+    "id": 25,
+    "title": "Neo-Classical Rebirth",
+    "description": "Witness the rebirth of Neo-Classical art and its contemporary interpretations.",
+    "image": "static/images/neo_classical.jpg",
+    "start_date": "2023-10-15",
+    "end_date": "2023-11-04",
+    "artists": "Neo-Classical Artists"
+  }
+]

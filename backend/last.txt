@@ -1,0 +1,50 @@
+# Sample artworks data (replace with your actual data)
+sample_artworks = [
+    {
+        'id': 1,
+        'title': 'Artwork 1',
+        'artist': 'Artist 1',
+        'description': 'Description of Artwork 1',
+        'image': 'path/to/image1.jpg',
+        'price': 100,
+    },
+    {
+        'id': 2,
+        'title': 'Artwork 2',
+        'artist': 'Artist 2',
+        'description': 'Description of Artwork 2',
+        'image': 'path/to/image2.jpg',
+        'price': 150,
+    },
+    # Add more artworks
+]'
+
+
+
+
+class UserRegistrationView(generics.CreateAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+    def create(self, request):
+        serializer = self.get_serializer(data=request.data)
+        if serializer.is_valid():
+            self.perform_create(serializer)
+            return Response({'message': 'User registered successfully'}, status=status.HTTP_201_CREATED)
+        else:
+            print(serializer.errors)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+class ArtistRegistrationView(generics.CreateAPIView):
+    queryset = Artist.objects.all()
+    serializer_class = ArtistSerializer
+
+    def create(self, request):
+        serializer = self.get_serializer(data=request.data)
+        if serializer.is_valid():
+            self.perform_create(serializer)
+            return Response({'message': 'Artist registered successfully'}, status=status.HTTP_201_CREATED)
+        else:
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
