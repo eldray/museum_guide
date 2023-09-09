@@ -22,16 +22,6 @@ class ArtworkSerializer(serializers.ModelSerializer):
         model = Artwork
         fields = ['id', 'title', 'artist', 'description', 'image', 'price']
 
-
-class ArtistProfileSerializer(serializers.ModelSerializer):
-    artist_type_display = serializers.CharField(source='get_artist_type_display', read_only=True)
-    website = serializers.URLField(allow_blank=True, allow_null=True)
-
-    class Meta:
-        model = ArtistProfile
-        fields = '__all__'
-        read_only_fields = ['user_profile']  # Prevent updating this field on serialization
-
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
@@ -54,3 +44,30 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
     def get_interests(self, instance):
         return instance.interests.split(',') if instance.interests else []
+    
+
+from rest_framework import serializers
+from .models import UserRegistration
+
+class UserRegistrationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserRegistration
+        fields = ['username', 'email', 'password']
+
+from rest_framework import serializers
+from .models import ArtistRegistration
+
+class ArtistRegistrationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ArtistRegistration
+        fields = ['name', 'email', 'artist_type', 'biography', 'website', 'facebook', 'twitter', 'instagram']
+
+    
+class ArtistProfileSerializer(serializers.ModelSerializer):
+    artist_type_display = serializers.CharField(source='get_artist_type_display', read_only=True)
+    website = serializers.URLField(allow_blank=True, allow_null=True)
+
+    class Meta:
+        model = ArtistProfile
+        fields = '__all__'
+        read_only_fields = ['user_profile']  # Prevent updating this field on serialization

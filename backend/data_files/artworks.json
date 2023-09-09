@@ -1,4 +1,4 @@
-[
+﻿[
     {
       "id": 1,
       "title": "David, 1501-1504",
@@ -11,7 +11,7 @@
       "id": 2,
       "title": "Ecstasy of Saint Teresa, 1647�52",
       "by_artist": "Gian Lorenzo Bernini",
-      "description": "Acknowledged as an originator of the High Roman Baroque style, Gian Lorenzo Bernini created this masterpiece for a chapel in the Church of Santa Maria della Vittoria. The Baroque was inextricably linked to the Counter-Reformation through which the Catholic Church tried to stem the tide of Protestantism surging across 17th-century Europe. Artworks like Bernini�s was part of the program to reaffirm Papal dogma, well served here by Bernini�s genius for imbuing religious scenes with dramatic narratives. Ecstasy is a case in point: Its subject�Saint Teresa of �vila, a Spanish Carmelite nun and mystic who wrote of her encounter with an angel�is depicted just as the angel is about to plunge an arrow into her heart. Ecstasy�s erotic overtones are unmistakable, most obviously in the nun�s orgasmic expression and the writhing fabric wrapping both figures. An architect as all as an artist, Bernini also designed the setting of the Chapel in marble, stucco and paint.",
+      "description": "Acknowledged as an originator of the High Roman Baroque style, Gian Lorenzo Bernini created this masterpiece for a chapel in the Church of Santa Maria della Vittoria. The Baroque was inextricably linked to the Counter-Reformation through which the Catholic Church tried to stem the tide of Protestantism surging across 17th-century Europe. Artworks like Bernini's was part of the program to reaffirm Papal dogma, well served here by Bernini's genius for imbuing religious scenes with dramatic narratives. Ecstasy is a case in point: Its subject Saint Teresa of vila, a Spanish Carmelite nun and mystic who wrote of her encounter with an angel is depicted just as the angel is about to plunge an arrow into her heart. Ecstasy's erotic overtones are unmistakable, most obviously in the nun's orgasmic expression and the writhing fabric wrapping both figures. An architect as all as an artist, Bernini also designed the setting of the Chapel in marble, stucco and paint.",
       "image": "static/images/teresa.jpg",
       "price": 100.00
     },
@@ -74,14 +74,14 @@
     {
       "id": 10,
       "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
+      "by_artist": "Marcel Duchamp",
       "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
       "image": "static/images/BicycleWheel.jpg",
       "price": 100.00
     },
     {
       "id": 11,
-      "title": "Calder�s Circus, 1926-31",
+      "title": "Calder's Circus, 1926-31",
       "by_artist": "Alexander Calder",
       "description": "A beloved fixture of the Whitney Museum�s permanent collection, Calder�s Circus distills the playful essence that Alexander Calder (1898�1976) brought to bear as an artist who helped to shape 20th-sculpture. Circus, which was created during the artist�s time in Paris, was less abstract than his hanging �mobiles,� but in it�s own way, it was just as kinetic: Made primarily out of wire and wood, Circus served as the centerpiece for improvisational performances, in which Calder moved around various figures depicting contortionists, sword swallowers, lion tamers, etc., like godlike ringmaster.  ",
       "image": "static/images/circus.jpg",
@@ -89,7 +89,7 @@
     },
     {
       "id": 12,
-      "title": "Venus of Willendorf, 28,000�25,000 BC",
+      "title": "Venus of Willendorf, 28,000-25,000 BC",
       "by_artist": "unknown",
       "description": "The ur sculpture of art history, this tiny figurine measuring just over four inches in height was discovered in Austria in 1908. Nobody knows what function it served, but guesswork has ranged from fertility goddess to masturbation aid. Some scholars suggest it may have been a self-portrait made by a woman. It�s the most famous of many such objects dating from the Old Stone Age.",
       "image": "static/images/venus.jpg",
@@ -99,7 +99,7 @@
       "id": 13,
       "title": "Bust of Nefertiti, 1345 BC",
       "by_artist": "unknown",
-      "description": "This portrait has been a symbol of feminine beauty since it was first unearthed in 1912 within the ruins of Amarna, the capital city built by the most controversial Pharaoh of Ancient Egyptian history: Akhenaten. The life of his queen, Nefertiti, is something of mystery: It�s thought that she ruled as Pharaoh for a time after Akhenaten�s death�or more likely, as the co-regent of the Boy King Tutankhamun. Some Egyptologist believe she was actually Tut�s mother. This stucco-coated limestone bust is thought to be the handiwork of Thutmose, Akhenaten�s court sculptor.",
+      "description": "This portrait has been a symbol of feminine beauty since it was first unearthed in 1912 within the ruins of Amarna, the capital city built by the most controversial Pharaoh of Ancient Egyptian history: Akhenaten. The life of his queen, Nefertiti, is something of mystery: It's thought that she ruled as Pharaoh for a time after Akhenaten�s death�or more likely, as the co-regent of the Boy King Tutankhamun. Some Egyptologist believe she was actually Tut�s mother. This stucco-coated limestone bust is thought to be the handiwork of Thutmose, Akhenaten�s court sculptor.",
       "image": "static/images/nefertiti.jpg",
       "price": 100.00
     },
@@ -193,97 +193,296 @@
     },
     {
       "id": 26,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "This is the largest, the last work from C�zanne�s lifelong exploration, and perhaps in its unfinished state, it is pure and serene.The abstract women, present unclothed give the painting tension and density.The atmosphere of this painting is strange and beautiful � the landscape is largely bluish, a soft haze in which sky and water and vegetation merge and by which the masterfully drawn figures are delicately overcast.Despite the unpolished state �The Large Bathers� remains a masterpiece of modern art.The large bathers take their inspiration from the works of Titian and Peter Paul Rubens.Of all the famous paintings The Les Demoiselles D�Avigon of Picasso and other famous groups of nude women can be an evident inspiration for this famous painting.The painting is open to view in the Philadelphia Museum of Art, United States.",
-      "image": "static/images/bathers.jpg",
+      "title": "The Terracotta Army, 210–209 BC",
+      "by_artist": "unknown",
+      "description": "Discovered in 1974, the Terracotta Army is an enormous cache of clay statues buried in three massive pits near the tomb of Shi Huang, the first Emperor of China, who died in 210 BC. Meant to protect him in the afterlife, the Army is believed by some estimates to number more than 8,000 soldiers along with 670 horses and 130 chariots. Each is life-size, though actual height varies according to military rank.",
+      "image": "static/images/terracota.png",
       "price": 100.00
     },
     {
       "id": 27,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Laocoön and His Sons, Second Century BC",
+      "by_artist": "unknown",
+      "description": "Perhaps the most famous sculpture of Roman antiquity, Laocoön and His Sons was originally unearthed in Rome in 1506 and moved to the Vatican, where it resides to this day. It is based on the myth of a Trojan priest killed along with his sons by sea serpents sent by the sea god Poseidon as retribution for Laocoön’s attempt to expose the ruse of the Trojan Horse. Originally installed in the palace of Emperor Titus, this life-size figurative grouping, attributed to a trio of Greek sculptors from the Island of Rhodes, is unrivaled as a study of human suffering.",
+      "image": "static/images/laccoon and sons.jpg",
       "price": 100.00
     },
     {
       "id": 28,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Mona Lisa (c. 1503–19)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "The world’s most famous artwork, the Mona Lisa draws thousands of visitors to the Louvre Museum each day, many of whom are compelled by the sitter’s mysterious gaze and enigmatic smile. The seemingly ordinary portrait of a young woman dressed modestly in a thin veil, somber colors, and no jewelry might also confound its viewers, who may wonder what all the fuss is about. The painting’s simplicity belies Leonardo’s talent for realism. The subject’s softly modeled face shows his skillful handling of sfumato, an artistic technique that uses subtle gradations of light and shadow, rather than line, to model form. The delicately painted veil, the finely wrought tresses, and the careful rendering of folded fabric reveal Leonardo’s tireless patience in recreating his studied observations. Moreover, the sitter’s perplexing expression only adds to her realism. Her smile might be engaging or it might be mocking—viewers can’t quite figure it out because, like a human, she is a complex figure, embodying contrary characteristics simultaneously.",
+      "image": "static/images/Mona-Lisa.jpg",
       "price": 100.00
     },
     {
       "id": 29,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Last Supper (c. 1495–98)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "One of the most famous paintings in the world, the Last Supper was commissioned by Ludovico Sforza, duke of Milan and Leonardo’s patron during his first stay in that city, for the Dominican monastery of Santa Maria delle Grazie. Depicting a sequential narrative, Leonardo illustrates several closely connected moments in the Gospels, including Matthew 26:21–28, in which Jesus declares that one of the Apostles will betray him and then institutes the Eucharist. Leonardo, who was intrigued by the manner in which a man’s character can reveal itself in posture, expression, and gesture, depicted each disciple’s unique reaction to the declaration. The Apostles’ postures rise, fall, extend, and intertwine as they appear to whisper, yell, grieve, and debate around Jesus, who sits serenely in the center. Because of Leonardo’s experimental painting technique, in which he used tempera or oil paint on two layers of preparatory ground, the work began to disintegrate soon after he finished it. Viewers, however, can still recognize it as a complex study of varied human emotion, revealed in a deceptively simple composition.",
+      "image": "static/images/Last-Supper.jpg",
       "price": 100.00
     },
     {
       "id": 30,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Head of a Woman (1500–10)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "Head of a Woman, a small brush drawing with pigment, depicts a young woman with her head tilted and her eyes downcast. Her posture recalls the Virgin Mary in Leonardo’s The Virgin of the Rocks, suggesting that the drawing may have served as a model. The drawing’s nickname, La scapigliata, translates to “disheveled” and refers to the young woman’s wayward strands of hair. The loosely sketched tendrils and shoulders contrast with the highly finished face, where Leonardo gently modeled the woman’s delicate features, from her heavy eyelids to her tender lips. It reveals Leonardo’s fluid means of working, utilizing both expressive drawing to create form and controlled layering to provide detail.",
+      "image": "static/images/Head-Woman.jpg",
       "price": 100.00
     },
     {
       "id": 31,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Vitruvian Man (c. 1490)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "Leonardo’s pen-and-ink drawing Vitruvian Man comes from one of the many notebooks that he kept on hand during his mature years. It is accompanied by notes, written in mirror script, on the ideal human proportions that the Roman architect Vitruvius laid out in a book on architecture from the 1st century BCE. The drawing illustrates Vitruvius’s theory that the ideal human could fit within a circle and a square, two irreconcilable shapes. Leonardo resolved the concept by drawing a male figure in two superimposed positions—one with his arms outstretched to fit in a square and another with his legs and arms spread in a circle. The work shows not only Leonardo’s effort to understand significant texts but also his desire to expand on them. He was not the first to illustrate Vitruvius’s concepts, but his drawing later became the most iconic, partly because its combination of mathematics, philosophy, and art seemed a fitting symbol of the Renaissance. The drawing is now housed in the Gallerie dell’Accademia, Venice, where it is not typically on display but kept in a climate-controlled archive.",
+      "image": "static/images/Vitruvian.jpg",
       "price": 100.00
     },
     {
       "id": 32,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Self Portrait (c. 1490/1515–16)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "Long regarded as a self-portrait, the red chalk drawing of an old man with long wavy hair and a beard has been reproduced to such an extent that it defines how most people think of Leonardo’s appearance. Yet some scholars argue that the figure, with its craggy features, furrowed brow, and downcast eyes, appears much older than the age Leonardo ever reached; Leonardo died at age 67. They propose that the drawing may be one of his grotesque drawings, sketches he habitually made in his notebooks of people with eccentric features. Whomever the portrait represents, it is a departure from Leonardo’s often captivating subjects, yet he managed to imbue the figure with the nobility and wisdom of a mature age.",
+      "image": "static/images/Self-portrait.jpg",
       "price": 100.00
     },
     {
       "id": 33,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "The Virgin of the Rocks (c. 1483–86)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "Based on stylistic evidence, many scholars consider the painting. The Virgin of the Rocks in the Louvre the first of two paintings that Leonardo made of an apocryphal legend in which the Holy Family meets Saint John the Baptist as they flee to Egypt from Herod’s Massacre of the Innocents. Leonardo was involved in years of litigation with the Confraternity of the Immaculate Conception, which commissioned the work, and the dispute eventually led Leonardo to paint another version of the subject about 1508, which is now housed in the National Gallery of London.The first painting shows the ways in which Leonardo ushered in the High Renaissance. Early paintings from this period often depicted figures in linear arrangements, separate from one another, and stiff in form. In The Virgin of the Rocks, however, the figures of the Virgin Mary, the Christ Child, the infant John, and an archangel are arranged in a pyramidal composition, and they not only convincingly occupy a space but interact with one another through gestures and glances. A youthful Mary sits on the ground in a mysterious rocky landscape, not on a throne as so many early Renaissance paintings depicted her. Her body has movement—it seems to sway as she tilts her head protectively toward the infant John, who kneels in prayer at the left, and she looks as if she nudges him over to the Christ Child at the right. Jesus, in turn, blesses John as an archangel, seen in a complex pose from the back, points toward John and glances inscrutably outward at the viewer. Leonardo also notably excluded traditional holy signifiers—halos for Mary and Christ and a staff for John—so that the Holy Family appears less divine and more human.",
+      "image": "static/images/Virgin-of-the-Rocks.jpg",
       "price": 100.00
     },
     {
       "id": 34,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Lady with an Ermine (c. 1489–91)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "Many art historians identify the youthful woman in Lady with an Ermine as Cecilia Gallerani, the mistress of Leonardo’s patron, Ludovico Sforza, duke of Milan. The ermine was often used as an emblem for the duke. The woman turns her head to the right, her bright eyes seemingly directed toward something outside the frame. Although the painting has been heavily overpainted, notably the dark background, it nonetheless reveals Leonardo’s knowledge of anatomy and his ability to represent character in posture and expression. He captures the girl’s youth and genial nature in her guileless features, attentive gaze, and tender embrace of the ermine, which sits with its head cocked regally and alert. Her slender hand reveals the complicated bone structure beneath the skin, just as the head of the ermine suggests the skull underneath the finely rendered fur.",
+      "image": "static/images/Lady-Ermine.jpg",
       "price": 100.00
     },
     {
       "id": 35,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
+      "title": "Salvator Mundi (c. 1500)",
+      "by_artist": "Leonardo da Vinci",
       "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
       "image": "static/images/BicycleWheel.jpg",
       "price": 100.00
     },
     {
       "id": 36,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Salvator Mundi (c. 1500)",
+      "by_artist": "Leonardo da Vinci",
+      "description": "The head-on portrait of Salvator Mundi (c. 1500; “Savior of the World”) made headlines in 2017 when it sold for a record-breaking $450.3 million at auction. The high price was all the more surprising when considering that Salvator Mundi was in poor condition, it had a questionable history, and its attribution was a subject of debate among scholars and critics. Many pundits remarked on the poor skill used to represent Jesus’ face; the stiff posture, which was so unlike the Renaissance master’s characteristic twisting poses; and the unconvincing representation of the glass globe, which, if solid, would have reflected a distorted view of its holder, an optical trick that Leonardo would have known about. Christie’s, the auction house that managed the sale, dismissed the criticisms, noting that any lack of craft was the result of heavy restoration in previous centuries and pointed to the soft modeling of Jesus’ right hand and the finesse of his tight curls, both characteristics that resembled Leonardo’s technique. The auction house also asserted that conservators had confirmed that the painting was made of the same materials that Leonardo would have used, notably ultramarine, an expensive high-quality blue pigment often reserved exclusively for virtuosos. The attribution debate continued well after the sale, but the interest in the work and the large sum paid at auction attested to Leonardo’s enduring celebrity and to his powerful position in the art history canon five centuries after his death.",
+      "image": "static/images/Salvator.jpg",
       "price": 100.00
     },
     {
       "id": 37,
-      "title": "Bicycle Wheel, 1913",
-      "by_artist": "Duchamp",
+      "title": "Ginevra de’ Benci (c. 1474/78)",
+      "by_artist": "Leonardo da Vinci",
       "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
+      "image": "static/images/Ginevra.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 38,
+      "title": "The Virgin and Child with Saint Anne (c. 1503–19)3",
+      "by_artist": "Leonardo da Vinci",
+      "description": "Some scholars believe that The Virgin and Child with Saint Anne was Leonardo’s last painting, and in this work he used many of the conventions that he had established throughout his career to depict three generations of the Holy Family—Saint Anne, her daughter, the Virgin Mary, and the Christ Child. Anne, at the apex of the pyramidal composition, watches Mary, who sits on her lap, as the Virgin tenderly restrains the Christ Child from mounting a lamb. Contrasting with the knowing infant Leonardo depicted in The Virgin of the Rocks, the Christ figure in the The Virgin and Child with Saint Anne appears innocent, demonstrating playful juvenile behavior and showing a trusting expression as he returns his mother’s gaze. The interactions between the figures feels intimate and reveals Leonardo’s ability to represent convincing human relationships.The painting also shows Leonardo’s lifelong interest in believably representing three-dimensional space on a two-dimensional surface. As in many of Leonardo’s paintings, the figures sit amid a fantastical landscape. Using aerial perspective, a technique that he wrote about in his Treatise on Painting, Leonardo created the illusion of distance by painting the rocky formations in the background so that they appear blue-gray and less detailed than the landscape of the foreground. He used this technique in many of the landscapes of his earlier works, including the Mona Lisa and The Virgin of the Rocks.",
+      "image": "static/images/The Virgin.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 39,
+      "title": "Mona Lisa, 1503–19",
+      "by_artist": "Leonardo Da Vinci",
+      "description": "Painted between 1503 and 1517, Da Vinci’s alluring portrait has been dogged by two questions since the day it was made: Who’s the subject and why is she smiling? A number of theories for the former have been proffered over the years: That she’s the wife of the Florentine merchant Francesco di Bartolomeo del Giocondo (ergo, the work’s alternative title, La Gioconda); that she's Leonardo’s mother, Caterina, conjured from Leonardo's boyhood memories of her; and finally, that it's a self-portrait in drag. As for that famous smile, its enigmatic quality has driven people crazy for centuries. Whatever the reason, Mona Lisa’s look of preternatural calm comports with the idealized landscape behind her, which dissolves into the distance through Leonardo’s use of atmospheric perspective.",
+      "image": "static/images/Mona Lisa2.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 40,
+      "title": "Girl with a Pearl Earring, 1665",
+      "by_artist": "Johannes Vermeer",
+      "description": "Johannes Vermeer’s 1665 study of a young woman is startlingly real and startlingly modern, almost as if it were a photograph. This gets into the debate over whether or not Vermeer employed a pre-photographic device called a camera obscura to create the image. Leaving that aside, the sitter is unknown, though it’s been speculated that she might have been Vermeer's maid. He portrays her looking over her shoulder, locking her eyes with the viewer as if attempting to establish an intimate connection across the centuries. Technically speaking, Girl isn’t a portrait, but rather an example of the Dutch genre called a tronie—a headshot meant more as still life of facial features than as an attempt to capture a likeness.",
+      "image": "static/images/Earring.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 41,
+      "title": "The Starry Night, 1889",
+      "by_artist": "Vincent van Gogh",
+      "description": "Vincent Van Gogh’s most popular painting, The Starry Night was created by Van Gogh at the asylum in Saint-Rémy, where he’d committed himself in 1889. Indeed, The Starry Night seems to reflect his turbulent state of mind at the time, as the night sky comes alive with swirls and orbs of frenetically applied brush marks springing from the yin and yang of his personal demons and awe of nature.",
+      "image": "static/images/Starry Night.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 42,
+      "title": "The Kiss, 1907–1908",
+      "by_artist": "Gustav Klimt",
+      "description": "Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt’s fin-de-siècle portrayal of intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau. Klimt depicts his subjects as mythical figures made modern by luxuriant surfaces of up-to-the moment graphic motifs. The work is a highpoint of the artist’s Golden Phase between 1899 and 1910 when he often used gold leaf—a technique inspired by a 1903 trip to the Basilica di San Vitale in Ravenna, Italy, where he saw the church’s famed Byzantine mosaics.",
+      "image": "static/images/kiss.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 43,
+      "title": "The Birth of Venus, 1484–1486",
+      "by_artist": "Sandro Botticelli",
+      "description": "Botticelli’s The Birth of Venus was the first full-length, non-religious nude since antiquity, and was made for Lorenzo de Medici. It’s claimed that the figure of the Goddess of Love is modeled after one Simonetta Cattaneo Vespucci, whose favors were allegedly shared by Lorenzo and his younger brother, Giuliano. Venus is seen being blown ashore on a giant clamshell by the wind gods Zephyrus and Aura as the personification of spring awaits on land with a cloak. Unsurprisingly, Venus attracted the ire of Savonarola, the Dominican monk who led a fundamentalist crackdown on the secular tastes of the Florentines. His campaign included the infamous “Bonfire of the Vanities” of 1497, in which “profane” objects—cosmetics, artworks, books—were burned on a pyre. The Birth of Venus was itself scheduled for incineration, but somehow escaped destruction. Botticelli, though, was so freaked out by the incident that he gave up painting for a while.",
+      "image": "static/images/BirthVenus.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 44,
+      "title": "Arrangement in Grey and Black No. 1, 1871",
+      "by_artist": "James Abbott McNeill Whistler",
+      "description": "Whistler’s Mother, or Arrangement in Grey and Black No. 1, as it’s actually titled, speaks to the artist’s ambition to pursue art for art’s sake. James Abbott McNeill Whistler painted the work in his London studio in 1871, and in it, the formality of portraiture becomes an essay in form. Whistler’s mother Anna is pictured as one of several elements locked into an arrangement of right angles. Her severe expression fits in with the rigidity of the composition, and it’s somewhat ironic to note that despite Whistler’s formalist intentions, the painting became a symbol of motherhood.",
+      "image": "static/images/greyandblack.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 45,
+      "title": "The Arnolfini Portrait, 1434",
+      "by_artist": "Jan van Eyck",
+      "description": "One of the most significant works produced during the Northern Renaissance, this composition is believed to be one of the first paintings executed in oils. A full-length double portrait, it reputedly portrays an Italian merchant and a woman who may or may not be his bride. In 1934, the celebrated art historian Erwin Panofsky proposed that the painting is actually a wedding contract. What can be reliably said is that the piece is one of the first depictions of an interior using orthogonal perspective to create a sense of space that seems contiguous with the viewer’s own; it feels like a painting you could step into.",
+      "image": "static/images/Arnolfini Portrait.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 46,
+      "title": "The Garden of Earthly Delights, 1503–1515",
+      "by_artist": "Hieronymus Bosch",
+      "description": "This fantastical triptych is generally considered a distant forerunner to Surrealism. In truth, it’s the expression of a late medieval artist who believed that God and the Devil, Heaven and Hell were real. Of the three scenes depicted, the left panel shows Christ presenting Eve to Adam, while the right one features the depredations of Hell; less clear is whether the center panel depicts Heaven. In Bosch’s perfervid vision of Hell, an enormous set of ears wielding a phallic knife attacks the damned, while a bird-beaked bug king with a chamber pot for a crown sits on its throne, devouring the doomed before promptly defecating them out again. This riot of symbolism has been largely impervious to interpretation, which may account for its widespread appeal.",
+      "image": "static/images/Delights.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 47,
+      "title": "A Sunday Afternoon on the Island of La Grande Jatte, 1884–1886",
+      "by_artist": "Georges Seurat",
+      "description": "Georges Seurat’s masterpiece, evoking the Paris of La Belle Epoque, is actually depicting a working-class suburban scene well outside the city’s center. Seurat often made this milieu his subject, which differed from the bourgeois portrayals of his Impressionist contemporaries. Seurat abjured the capture-the-moment approach of Manet, Monet and Degas, going instead for the sense of timeless permanence found in Greek sculpture. And that is exactly what you get in this frieze-like processional of figures whose stillness is in keeping with Seurat’s aim of creating a classical landscape in modern form.",
+      "image": "static/images/AfternoonIsland.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 48,
+      "title": "Les Demoiselles d’Avignon, 1907",
+      "by_artist": "Pablo Picasso",
+      "description": "The ur-canvas of 20th-century art, Les Demoiselles d’Avignon ushered in the modern era by decisively breaking with the representational tradition of Western painting, incorporating allusions to the African masks that Picasso had seen in Paris's ethnographic museum at the Palais du Trocadro. Its compositional DNA also includes El Greco’s The Vision of Saint John (1608–14), now hanging in the Metropolitan Museum of Art. The women being depicted are actually prostitutes in a brothel in the artist's native Barcelona.",
+      "image": "static/images/Avignon.jpg",
+      "price": 100.00
+    },    
+    {
+      "id": 49,
+      "title": "The Harvesters, 1565",
+      "by_artist": "Pieter Bruegel the Elder",
+      "description": "Bruegel’s fanfare for the common man is considered one of the defining works of Western art. This composition was one of six created on the theme of the seasons. The time is probably early September. A group of peasants on the left cut and bundle ripened wheat, while the on the right, another group takes their midday meal. One figure is sacked out under a tree with his pants unbuttoned. This attention to detail continues throughout the painting as a procession of ever-granular observations receding into space. It was extraordinary for a time when landscapes served mostly as backdrops for religious paintings.",
+      "image": "static/images/Harvesters.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 50,
+      "title": "Composition with Red Blue and Yellow, 1930",
+      "by_artist": "Piet Mondrian, ",
+      "description": "A small painting (18 inches by 18 inches) that packs a big art-historical punch, Mondrian’s work represents a radical distillation of form, color and composition to their basic components. Limiting his palette to the primary triad (red, yellow and blue), plus black and white, Mondrian applied pigment in flat unmixed patches in an arrangement of squares and rectangles that anticipated Minimalism.",
+      "image": "static/images/Composition.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 51,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "A painting of a painting within a painting, Velázquez masterpiece consists of different themes rolled into one: A portrait of Spain’s royal family and retinue in Velázquez’s studio; a self-portrait; an almost art-for-art’s-sake display of bravura brush work; and an interior scene, offering glimpses into Velázquez’s working life. Las Meninas is also a treatise on the nature of seeing, as well as a riddle confounding viewers about what exactly they’re looking at. It’s the visual art equivalent of breaking the fourth wall—or in this case, the studio’s far wall on which there hangs a mirror reflecting the faces of the Spanish King and Queen. Immediately this suggests that the royal couple is on our side of the picture plane, raising the question of where we are in relationship to them. Meanwhile, Velázquez’s full length rendering of himself at his easel begs the question of whether he’s looking in a mirror to paint the picture. In other words, are the subjects of Las Meninas (all of whom are fixing their gaze outside of the frame), looking at us, or looking at themselves?",
+      "image": "static/images/Family.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 52,
+      "title": "Guernica, 1937",
+      "by_artist": "Pablo Picasso",
+      "description": "Perhaps Picasso’s best-known painting, Guernica is an antiwar cris de coeur occasioned by the 1937 bombing of the eponymous Basque city during the Spanish Civil War by German and Italian aircraft allied with Fascist leader Francisco Franco. The leftist government that opposed him commissioned Picasso to created the painting for the Spanish Pavillion at 1937 World’s Fair in Paris. When it closed, Guernica went on an international tour, before winding up at the Museum of Modern Art in New York. Picasso loaned the painting to MoMA with the stipulation that it be returned to his native Spain once democracy was restored—which it was in 1981, six years after Franco's death in 1975 (Picasso himself died two years before that.) Today, the painting is housed at the Museo Nacional Centro de Arte Reina Sofía in Madrid.",
+      "image": "static/images/Guernica.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 53,
+      "title": "The Naked Maja, circa 1797–1800",
+      "by_artist": "Francisco de Goya y Lucientes",
+      "description": "Definitely comfortable in her own skin, this female nude staring unashamedly at the viewer caused quite a stir when it was painted, and even got Goya into hot water with the Spanish Inquisition. Among other things, it features one of the first depictions of public hair in Western art. Commissioned by Manuel de Godoy, Spain’s Prime Minister, The Naked Maja was accompanied by another version with the sitter clothed. The identity of the woman remains a mystery, though she is most thought to be Godoy’s young mistress, Pepita Tudó.",
+      "image": "static/images/Naked.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 54,
+      "title": "Grande Odalisque, 1814",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "Commissioned by Napoleon’s sister, Queen Caroline Murat of Naples, Grande Odalisque represented the artist’s break with the Neo-classical style he’d been identified with for much of his career. The work could be described as Mannerist, though it’s generally thought of as a transition to Romanticism, a movement that abjured Neo-classicalism’s precision, formality and equipoise in favor of eliciting emotional reactions from the viewer. This depiction of a concubine languidly posed on a couch is notable for her strange proportions. Anatomically incorrect, this enigmatic, uncanny figure was greeted with jeers by critics at the time, though it eventually became one of Ingres most enduring works.",
+      "image": "static/images/Grande.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 55,
+      "title": "Liberty Leading the People, 1830",
+      "by_artist": "Eugène Delacroix",
+      "description": "Commemorating the July Revolution of 1830, which toppled King Charles X of France, Liberty Leading the People has become synonymous with the revolutionary spirit all over the world. Combining allegory with contemporary elements, the painting is a thrilling example of the Romantic style, going for the gut with its titular character brandishing the French Tricolor as members of different classes unite behind her to storm a barricade strewn with the bodies of fallen comrades. The image has inspired other works of art and literature, including the Statue of Liberty and Victor Hugo’s novel Les Misérables.",
+      "image": "static/images/Revolution.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 56,
+      "title": "Impression, Sunrise, 1874",
+      "by_artist": "Claude Monet",
+      "description": "The defining figure of Impressionism, Monet virtually gave the movement its name with his painting of daybreak over the port of Le Havre, the artist’s hometown. Monet was known for his studies of light and color, and this canvas offers a splendid example with its flurry of brush strokes depicting the sun as an orange orb breaking through a hazy blue melding of water and sky.",
+      "image": "static/images/Sunrise.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 57,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "",
+      "image": "static/images/BicycleWheel.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 58,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "",
+      "image": "static/images/BicycleWheel.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 59,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "",
+      "image": "static/images/BicycleWheel.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 60,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "",
+      "image": "static/images/BicycleWheel.jpg",
+      "price": 100.00
+    },    {
+      "id": 61,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "",
+      "image": "static/images/BicycleWheel.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 62,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "description": "",
       "image": "static/images/BicycleWheel.jpg",
       "price": 100.00
     }

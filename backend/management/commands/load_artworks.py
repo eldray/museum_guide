@@ -18,6 +18,4 @@ class Command(BaseCommand):
             artwork = Artwork(artist=artist, **artwork_data)  # Associate the artist with the artwork
             artwork.save()
 
-            
-
         self.stdout.write(self.style.SUCCESS('Data loaded successfully.'))

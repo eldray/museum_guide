@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": 1,
     "title": "Constructivism",
@@ -57,91 +57,99 @@
   },
   {
     "id": 9,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": ""
+    "title": "Surrealism",
+    "image": "static/images/movements/Surrealism.jpg",
+    "artists": "Various Surrealist Artists",
+    "description": "Founded by the poet André Breton in Paris in 1924, Surrealism was an artistic and literary movement that was active through World War II. The main goal of Surrealism painting and Surrealism artworks was to liberate thought, language, and human experience from the oppressive boundaries of rationalism by championing the irrational, the poetic and the revolutionary."
   },
   {
     "id": 10,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": ""
-  },  {
+    "title": "Symbolism",
+    "image": "static/images/movements/Symbolism.jpg",
+    "artists": "Various Symbolism Artists",
+    "description": "Symbolism emerged in the second half of the 19th century, mainly in Catholic European countries where industrialisation had developed to a great degree. Starting as a literary movement, Symbolism was soon identified with a young generation of painters who wanted art to reflect emotions and ideas rather than to represent the natural world in an objective way, united by a shared pessimism and weariness of the decadence in modern society."
+  },
+{
     "id": 11,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": ""
+    "title": "Street Art",
+    "image": "static/images/movements/StreetArt.jpg",
+    "artists": "Various Street Artists",
+    "description": "Evolving from early forms of graffiti, Street Art is a thought-provoking art movement that emerged in the 1960s and peaked with the spray-painted New York subway train murals of the 1980s. Street artists use urban spaces as their canvas, turning cities around the globe into open sky museums and have often found their way into the mainstream art world."
   },
   {
     "id": 12,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": ""
+    "title": "Rococo",
+    "image": "static/images/movements/Rococo.jpg",
+    "artists": "Various Rococo Artists",
+    "description": "Rococo is a movement in art, particularly in architecture and decorative art, that originated in France in the early 1700s.  Rococo art characteristics consist of elaborate ornamentation and a light, sensuous style, including scrollwork, foliage, and animal forms."
   },
   {
     "id": 13,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": ""
+    "title": "Precisionism",
+    "image": "static/images/movements/Precisionism.jpg",
+    "artists": "Various Precisionism Artists",
+    "description": "Precisionism was the first real indigenous modern art movement in the United States and contributed to the rise of American Modernism. Taking its cues from Cubism and Futurism, Precisionism was driven by a desire to bring structure back to art and celebrated the new American landscape of skyscrapers, bridges and factories."
   },
   {
     "id": 14,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "Post-Impressionism",
+    "image": "static/images/movements/Post-Impressionism.jpg",
+    "artists": "Various Post-Impressionist Artists",
+    "description": "Coined in 1910, the term ‘Post-Impressionism’ describes the reaction against the Impressionists’ naturalistic depiction of light and colour. Artists like Paul Cézanne, Paul Gauguin, and Vincent van Gogh developed personal styles unified by their interest in expressing their emotional and psychological responses to the world through bold colours and often symbolic images."
   },
   {
     "id": 15,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "Pop Art",
+    "image": "static/images/movements/PopArt.jpg",
+    "artists": "Various Pop Artists",
+    "description": "Pop Art emerged in the 1950s and was composed of British and American artists who draw inspiration from ‘popular’ imagery and products from commercial culture as opposed to ‘elitist’ fine art. Pop art reached its peak of activity in the 1960s, emphasizing the banal or kitschy elements of everyday life in such forms as mechanically reproduced silkscreens, large-scale facsimiles, and soft pop art sculptures."
   },
   {
     "id": 16,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "Performance Art",
+    "image": "static/images/movements/Performance Art.jpg",
+    "artists": "Various Performance Artists",
+    "description": "A term that emerged in the 1960s to describe different types of art that are created through actions performed by the artist or other participants, which may be live or recorded, spontaneous or scripted. Performance challenges the conventions of traditional forms of visual art such as painting and sculpture by embracing a variety of styles such as happenings, body art, actions, and events."
   },  {
     "id": 17,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "Neo-Impressionism",
+    "image": "static/images/movements/Neo-Impressionism.jpg",
+    "artists": "Various Neo-Impressionism Artists",
+    "description": "A term applied to an avant-garde art movement that flourished principally in France from 1886 to 1906. Led by the example of Georges Seurat and Paul Signac, Neo-Impressionists renounced the spontaneity of Impressionism in favour of a measured and systematic painting technique known as pointillism, grounded in science and the study of optics."
   },
   {
     "id": 18,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "Minimalism",
+    "image": "static/images/movements/Minimalism.jpg",
+    "artists": "Various Minimalist Artists",
+    "description": "Another one of the art movements from the 1960s, and typified by works composed of simple art, such as geometric shapes devoid of representational content. The minimal vocabulary of forms made from humble industrial materials challenged traditional notions of craftsmanship, the illusion of spatial depth in painting, and the idea that a work of abstract art must be one of a kind."
   },
   {
     "id": 19,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "Land Art",
+    "image": "static/images/movements/Land Art.jpg",
+    "artists": "Various Land Artists",
+    "description": "Land art, also known as Earth art, Environmental art and Earthworks, is a simple art movement that emerged in the 1960s and 1970s, characterized by works made directly in the landscape, sculpting the land itself into earthworks or making structures in the landscape using natural materials such as rocks or twigs. It could be seen as a natural version of installation art. Land art is largely associated with Great Britain and the United States but includes examples from many countries."
   },
   {
     "id": 20,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "Impressionism",
+    "image": "static/images/movements/Impressionism.jpg",
+    "artists": "Claude Monet, Pierre Auguste Renoir, Camille Pissarro, Alfred Sisley",
+    "description": "Impressionism is a 19th-century art movement, associated especially with known French artists, who attempted to accurately and objectively record visual ‘impressions’ by using small, thin, visible brushstrokes that coalesce to form a single scene and emphasize movement and the changing qualities of light."
   },
   {
     "id": 21,
-    "title": "Constructivism",
-    "image": "static/images/movements/constructivism.jpg",
-    "artists": "Various Renaissance Artists",
-    "description": "Developed by the Russian avant-garde around 1915, constructivism is a branch of abstract art, rejecting the idea of �art for art�s sake� in favour of art as a practice directed towards social purposes. The movement�s work was mostly geometric and accurately composed, sometimes through mathematics and measuring tools."
+    "title": "",
+    "image": "static/images/movements/.jpg",
+    "artists": "Various  Artists",
+    "description": ""
+  },
+  {
+    "id": 22,
+    "title": "Renaissance",
+    "image": "static/images/movements/Futurism.jpg",
+    "artists": "Various Futurist Artists",
+    "description": "Fairly unique among different types of art movements, it is an Italian development in abstract art and literature, founded in 1909 by Filippo Tommaso Marinetti, aiming to capture the dynamism, speed and energy of the modern mechanical world."
   }
 ]
