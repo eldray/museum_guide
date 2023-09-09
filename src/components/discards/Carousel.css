@@ -1,0 +1,57 @@
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Carousel Slider */
+.carousel-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Carousel Slide */
+.carousel-slide {
+  flex: 0 0 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Active Slide */
+.carousel-slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Slide Content */
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/* Navigation Arrows */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}

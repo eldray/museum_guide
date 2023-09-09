@@ -1,0 +1,165 @@
+
+import React from 'react';
+import { Formik, Form, Field } from 'formik';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
+
+const ArtistRegistration = () => {
+  const handleSubmit = async (values) => {
+    try {
+      const response = await axios.post('/api/artist/register/', values);
+      console.log(response.data); // Handle success or display error messages
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <div className="bg-gray-700 p-6 rounded-lg border-red-500 w-96">
+        <h2 className="text-red-500 text-center mb-4">Artist Registration</h2>
+        <Formik
+          initialValues={{
+            name: '',
+            email: '',
+            artistType: '',
+            biography: '',
+            website: '',
+            socialMedia: {},
+          }}
+          onSubmit={handleSubmit}
+        >
+          <Form>
+            <div className='flex
+            '>
+              <div>
+          <label htmlFor="name" className="block mb-2">
+              Name:
+              <Field
+                type="text"
+                id="name"
+                name="name"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>
+            <label htmlFor="email" className="block mb-2">
+              Email:
+              <Field
+                type="email"
+                id="email"
+                name="email"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>
+            <label htmlFor="artistType" className="block mb-2">
+              Type of Artist:
+              <Field
+                as="select"
+                id="artistType"
+                name="artistType"
+                className="w-full border rounded-lg px-3 py-2"
+              >
+                <option value="">Select</option>
+                <option value="graphic designer">Graphic Designer</option>
+                <option value="textile designer">Textile Designer</option>
+                <option value="photographer">Photographer</option>
+                <option value="painter">Painter</option>
+                <option value="sculptor">Sculptor</option>
+                {/* Add more options */}
+              </Field>
+            </label>
+            <label htmlFor="biography" className="block mb-2">
+              Biography:
+              <Field
+                type="textarea"
+                id="biography"
+                name="biography"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>
+            <label htmlFor="website" className="block mb-2">
+              Website:
+              <Field
+                type="text"
+                id="website"
+                name="website"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+              </label></div>
+              <div>
+            <h3 className="block mb-2">Social Media Accounts</h3>
+            <label htmlFor="socialMedia.facebook" className="block mb-2">
+              Facebook:
+              <Field
+                type="text"
+                id="socialMedia.facebook"
+                name="socialMedia.facebook"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>           
+            <label htmlFor="socialMedia.twitter" className="block mb-2">
+              Twitter:
+              <Field
+                type="text"
+                id="socialMedia.twitter"
+                name="socialMedia.twitter"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>           
+            <label htmlFor="socialMedia.instagram" className="block mb-2">
+              Instagram:
+              <Field
+                type="text"
+                id="socialMedia.instagram"
+                name="socialMedia.instagram"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>
+            <label htmlFor="socialMedia.facebook" className="block mb-2">
+              Facebook:
+              <Field
+                type="text"
+                id="socialMedia.facebook"
+                name="socialMedia.facebook"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>           
+            <label htmlFor="socialMedia.twitter" className="block mb-2">
+              Twitter:
+              <Field
+                type="text"
+                id="socialMedia.twitter"
+                name="socialMedia.twitter"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>            
+            <label htmlFor="socialMedia.instagram" className="block mb-2">
+              Instagram:
+              <Field
+                type="text"
+                id="socialMedia.instagram"
+                name="socialMedia.instagram"
+                className="w-full border rounded-lg px-3 py-2"
+              />
+            </label>
+            {/* more social media fields here*/}
+               </div>
+            </div>
+
+            <button
+              type="submit"
+              className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-black transition-colors mt-4"
+            >
+              Register
+            </button>
+          </Form>
+        </Formik>
+        <p className="mt-4 text-center">
+          Already have an account? <Link to="/login" className="text-red-500">Login</Link>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default ArtistRegistration;
