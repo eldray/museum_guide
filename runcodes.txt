@@ -21,3 +21,10 @@ ART_MEDIUM = [
         ('photographer', 'Photographer'),
 	('architecture', 'Architecture')
     ]
+
+        email = serializers.EmailField()
+    password = serializers.Charfield()
+    def check_user(self, clean_data):
+        user = authenticate(username=clean_data['email'], password=clean_data['password'])
+        if not user:
+            raise ValidationError

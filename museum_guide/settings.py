@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 from pathlib import Path
 
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -34,6 +36,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken',
     'corsheaders',
     'backend'
 ]
@@ -59,6 +63,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.common.CommonMiddleware',
 ]
+
 
 ROOT_URLCONF = 'museum_guide.urls'
 
@@ -81,6 +86,15 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'museum_guide.wsgi.application'
+
+
+REST_FRAMEWORK = {
+
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        
+    ],
+}
 
 
 # Database
@@ -113,8 +127,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTHENTICATION_BACKENDS = (
-    'django.contrib.auth.backends.ModelBackend',  # Default backend for username/password
-    'nackend.backends.EmailBackend',  # Your custom email-based authentication backend
+    'django.contrib.auth.backends.ModelBackend',
 )
 
 

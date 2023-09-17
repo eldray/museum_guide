@@ -1,38 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Da Vinci",
-        "bio": "I am an name who...",
-        "image_path": "images/davinci (1).jpg"
+        "name": "Leonardo Da Vinci",
+        "bio": "Leonardo Da Vinci is often the go-to answer when you ask people about famous artists. This man was not only an artist but also an engineer and scientist. Because of this, many believe Da Vinci to be a genius. In fact, people often call him the Renaissance man. Of course, Da Vinci is arguably one of the best artists of all time.",
+        "image_path": "images/artists/Leonardo.jpg"
     },
     {
         "id": 2,
-        "name": "Da Vinci",
-        "bio": "I am an name who...",
-        "image_path": "images/davinci (2).jpg" 
+        "name": "Pablo Picasso",
+        "bio": "Pablo Picasso is one of the most famous artists of the 20th century.Born in Malaga, Spain,  this Spanish painter is the co-founder of Cubism. In Cubism, artworks are avant-garde. Artists interpret a subject by breaking them up into cubes and restructuring them.",
+        "image_path": "images/artists/picasso.jpg" 
     },
     {
         "id": 3,
-        "name": "Da Vinci",
-        "bio": "I am an name who...",
-        "image_path": "images/davinci (3).jpg"
+        "name": "Rembrandt",
+        "bio": "Many believe Rembrandt to be one of the greatest visual artists in Dutch art history. Even during his lifetime, his influence was undeniable. He never went abroad, and yet many artists sought his teachings.His works were often self-portraits.",
+        "image_path": "images/artists/Rembrandt.jpg"
     },
     {
         "id": 4,
         "name": "Van Gogh",
-        "bio": "I am an name who...",
-        "image_path": "images/davinci (4).jpg"
+        "bio": "Van Gogh is legendary for being mentally unstable (he did, after all, cut of part of his ear after an argument with fellow painter Paul Gauguin), but his paintings are among the most famous and beloved of all time.Van Gogh is the one-eared artist. This Dutch painter is famous for not only his paintings but his life story as well. ",
+        "image_path": "images/artists/van Gogh.jpg"
     },
     {
         "id": 5,
-        "name": "Picasso",
-        "bio": "I am an name who...",
-        "image_path": "images/davinci (5).jpg"
+        "name": "Eugene Delacroix",
+        "bio": "Eugene Delacroix (1798-1863) was one of towering figures of 19th-century art. A leading figure of Romanticism?which privileged emotions over rationalism. Delacroix's expressive paint handling and use of color laid the foundation for successive avant-garde movements of the 1800s and beyond",
+        "image_path": "images/artists/Delacroix.jpg"
     },
     {
         "id": 6,
-        "name": "Da Vinci",
-        "bio": "I am an artist who...",
-        "image_path": "images/davinci (6).jpg"
+        "name": "Claude Monet",
+        "bio": "Perhaps the best know artist among the Impressionists, Monet captured the changeable effects of light on the landscape through prismatic shards of color delivered as rapidly painted strokes.His magisterial, late-career lily pond paintings foreshadowed Abstract Expressionism and Color-Field Abstaction. ",
+        "image_path": "images/artists/monet.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Andy Warhol",
+        "bio": "Andy Warhol is an American artist and filmmaker. He did not venture into acting, but his popularity was much like a celebrity?s. He bridged mainstream media and fine art together with his performance arts, films, and other pieces.Some of his experimental films include The Chelsea Girls (1966) and Blue Movie (1969).",
+        "image_path": "images/artists/Warhol.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Claude Monet",
+        "bio": "Perhaps the best know artist among the Impressionists, Monet captured the changeable effects of light on the landscape through prismatic shards of color delivered as rapidly painted strokes.His magisterial, late-career lily pond paintings foreshadowed Abstract Expressionism and Color-Field Abstaction. ",
+        "image_path": "images/artists/monet.jpg"
     }
 ]

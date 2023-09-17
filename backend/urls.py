@@ -24,7 +24,9 @@ from .views import (
     sample_artworks_view,
     UserRegistrationCreateView,
     ArtistRegistrationCreateView,
-    UserLoginView
+    UserLoginView,
+    ArtistLoginView,
+    FavoritesView
 )
 
 urlpatterns = [
@@ -41,13 +43,18 @@ urlpatterns = [
     
     path('api/user/register/', UserRegistrationCreateView.as_view(), name='register-user'),
 
-    path('api/login/', UserLoginView.as_view(), name='login'),
+    path('api/user/login/', UserLoginView.as_view(), name='user-login'),
+    path('api/artist/login/', ArtistLoginView.as_view(), name='artist-login'),
 
     path('api/user/profile/', UserProfileView.as_view(), name='user-profile'),
     path('api/user/favorites/add/exhibit/<int:exhibit_id>/', AddFavoriteExhibitView.as_view(), name='add-favorite-exhibit'),
     path('api/user/favorites/remove/exhibit/<int:exhibit_id>/', RemoveFavoriteExhibitView.as_view(), name='remove-favorite-exhibit'),
     path('api/user/favorites/add/artwork/<int:artwork_id>/', AddFavoriteArtworkView.as_view(), name='add-favorite-artwork'),
     path('api/user/favorites/remove/artwork/<int:artwork_id>/', RemoveFavoriteArtworkView.as_view(), name='remove-favorite-artwork'),
+
+    path('api/favorites/', FavoritesView.as_view(), name='favorites'),
+    path('api/favorites/<str:type>/<int:id>/', FavoritesView.as_view(), name='remove-favorite'),
+    # ...
 
     path('api/artist/profile/', ArtistProfileView.as_view(), name='artist-profile'),
 

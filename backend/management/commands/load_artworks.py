@@ -9,7 +9,7 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         json_file_path = settings.BASE_DIR / 'backend' / 'data_files' / 'artworks.json' 
 
-        with open(json_file_path) as f:
+        with open(json_file_path, 'r', encoding='utf-8-sig') as f:
             artworks_data = json.load(f)
 
         for artwork_data in artworks_data:

@@ -1,75 +1,66 @@
 [
     {
         "id": 1,
-        "title": "Artwork 1",
-        "artist": "Da Vinci",
-        "description": "This is the description of Artwork 1.",
-        "image_path": "images/davinci (1).jpg",
+        "title": "Venus of Willendorf, 28,000-25,000 BC",
+        "artist": "unknown",
+        "description": "The ur sculpture of art history, this tiny figurine measuring just over four inches in height was discovered in Austria in 1908. Nobody knows what function it served, but guesswork has ranged from fertility goddess to masturbation aid.",
+        "image_path": "images/venus.jpg",
         "price": 100
     },
     {
         "id": 2,
-        "title": "Artwork 2",
-        "artist": "Van Gogh",
-        "description": "This is the description of Artwork 2.",
-        "image_path": "images/davinci (2).jpg",
+        "title": "Bust of Nefertiti, 1345 BC",
+        "artist": "unknown",
+        "description": "Sited along a major highway, Angel soars to 66 feet in height and spans 177 feet in width from wingtip to wingtip. According the Gormley, the work is meant as a sort of symbolic marker between Britain's industrial past (the sculpture is located in the England's coal country, the heart of the Industrial Revolution) and its post-industrial future.",
+        "image_path": "images/nefertiti.jpg",
         "price": 150
     },
     {
         "id": 3,
-        "title": "Artwork 1",
-        "artist": "Picasso",
-        "description": "This is the description of Artwork 1.",
-        "image_path": "images/davinci (3).jpg",
+        "title": "The Angel of the North, 1998",
+        "artist": "Antony Gormley",
+        "description": "A cast of the artist's own body. That's true of this enormous winged monument located near the town of Gateshead in northeastern England. Sited along a major highway, Angel soars to 66 feet in height and spans 177 feet in width from wingtip to wingtip. According the Gormley, the work is meant as a sort of symbolic marker between Britain's industrial past",
+        "image_path": "images/north.jpg",
         "price": 100
     },
     {
         "id": 4,
-        "title": "Artwork 2",
-        "artist": "Da Vinci",
-        "description": "This is the description of Artwork 2.",
-        "image_path": "images/davinci (4).jpg",
+        "title": "Cloud Gate, 2006",
+        "artist": "Anish Kapoor",
+        "description": "Affectionately called 'The Bean' by Chicagoans for its bent ellipsoidal form, Cloud Gate, Anish Kapoor's public art centerpiece for the Second City's Millennium Park, is both artwork and architecture, providing an Instagram-ready archway for Sunday strollers and other visitors to the park.",
+        "image_path": "images/cloudgate.jpg",
         "price": 150
     },
     {
         "id": 5,
-        "title": "Artwork 1",
-        "artist": "Da Vinci",
-        "description": "This is the description of Artwork 1.",
-        "image_path": "images/davinci (5).jpg",
+        "title": "Last Supper (c. 1495-98)",
+        "artist": "Leonardo da Vinci",
+        "description": "'The Last Supper' by Leonardo da Vinci has always fascinated people from the around the world, especially if one looks at the many conspiracies and theories materializing every now and then.",
+        "image_path": "images/supper.jpg",
         "price": 100
     },
     {
         "id": 6,
-        "title": "Artwork 2",
-        "artist": "Da Vinci",
-        "description": "This is the description of Artwork 2.",
-        "image_path": "images/davinci (6).jpg",
+        "title": "The Starry Night, 1889",
+        "artist": "Vincent van Gogh",
+        "description": "Vincent Van Gogh's most popular painting, The Starry Night was created by Van Gogh at the asylum in Saint-Romy, where he'd committed himself in 1889. Indeed, The Starry Night seems to reflect his turbulent state of mind at the time, as the night sky comes alive with swirls and orbs of frenetically applied brush marks springing from the yin and yang of his personal demons and awe of nature.",
+        "image_path": "images/Starry Night.jpg",
         "price": 150
     },
     {
         "id": 7,
-        "title": "Artwork 1",
-        "artist": "Da Vinci",
-        "description": "This is the description of Artwork 1.",
-        "image_path": "images/davinci (6).jpg",
+        "title": "The Birth of Venus, 1484-1486",
+        "artist": "Sandro Botticelli",
+        "description": "Botticelli's The Birth of Venus was the first full-length, non-religious nude since antiquity, and was made for Lorenzo de Medici. It's claimed that the figure of the Goddess of Love is modeled after one Simonetta Cattaneo Vespucci, whose favors were allegedly shared by Lorenzo and his younger brother, Giuliano.",
+        "image_path": "images/BirthVenus.jpg",
         "price": 100
       },
       {
         "id": 8,
-        "title": "Artwork 2",
-        "artist": "Artist 2",
-        "description": "This is the description of Artwork 2.",
-        "image_path": "images/davinci (6).jpg",
-        "price": 200
-      }
-      ,
-      {
-        "id": 9,
-        "title": "Artwork 2",
-        "artist": "Artist 2",
-        "description": "This is the description of Artwork 2.",
-        "image_path": "images/davinci (6).jpg",
+        "title": "The Garden of Earthly Delights, 1503-1515",
+        "artist": "Hieronymus Bosch",
+        "description": "This fantastical triptych is generally considered a distant forerunner to Surrealism. In truth, it's the expression of a late medieval artist who believed that God and the Devil, Heaven and Hell were real. Of the three scenes depicted, the left panel shows Christ presenting Eve to Adam, while the right one features the depredations of Hell; less clear is whether the center panel depicts Heaven",
+        "image_path": "images/Delights.jpg",
         "price": 200
       }
 ]

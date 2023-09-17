@@ -1,15 +1,9 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AbstractBaseUser, BaseUserManager, PermissionsMixin, Group, Permission
 
-from django.conf import settings
+from django.utils.translation import gettext_lazy as _
 
-CustomUser = settings.AUTH_USER_MODEL
-
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
-from django.db import models
-
-
-
+# Custom User Manager
 class CustomUserManager(BaseUserManager):
     def create_user(self, email, password=None, **extra_fields):
         if not email:
@@ -31,9 +25,10 @@ class CustomUserManager(BaseUserManager):
 
         return self.create_user(email, password, **extra_fields)
 
+# Custom User Model
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(unique=True)
-    user_type = models.CharField(max_length=20)  # Add this line to define the user_type field
+    user_type = models.CharField(max_length=20)
 
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
@@ -43,16 +38,28 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['user_type']
 
+    groups = models.ManyToManyField(
+        Group,
+        verbose_name=_('groups'),
+        blank=True,
+        related_name='artists',  
+        related_query_name='user'
+    )
+
+    user_permissions = models.ManyToManyField(
+        Permission,
+        verbose_name=_('user permissions'),
+        blank=True,
+        related_name='users',  # Change this to a unique related name
+        related_query_name='user'
+    )
+
     def __str__(self):
         return self.email
 
-from django.conf import settings
 
 class LogEntry(models.Model):
-    # ...
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='log_entries')
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='backend_logentries')
-
 
 class Exhibit(models.Model):
     id = models.AutoField(primary_key=True)
@@ -71,7 +78,7 @@ class Movements(models.Model):
     image = models.ImageField(upload_to='movement_images/')
 
 class UserProfile(models.Model):
-    user = models.OneToOneField(CustomUser, on_delete=models.CASCADE, related_name='user_profile', blank=True, null=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='user_profile', blank=True, null=True)
     favorites = models.ManyToManyField(Exhibit, blank=True)  
     date_of_birth = models.DateField(blank=True, null=True)
     phone_number = models.CharField(max_length=20, blank=True, null=True)
@@ -155,7 +162,7 @@ class Artwork(models.Model):
     by_artist = models.CharField(max_length=100,blank=True, null=True)
     artist = models.ForeignKey(Artist, on_delete=models.CASCADE)
     description = models.TextField()
-    image = models.ImageField(upload_to='artwork_images/')
+    image = models.ImageField(upload_to='./static/artwork_images/')
     price = models.DecimalField(max_digits=8, decimal_places=2)
     # Add more fields as needed
 
@@ -192,4 +199,8 @@ class ArtistRegistration(models.Model):
     twitter = models.URLField(null=True, blank=True)
     instagram = models.URLField(null=True, blank=True)
 
-    def save(self, *args, **kwargs
+    def save(self, *args, **kwargs):
+        super(ArtistRegistration, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name

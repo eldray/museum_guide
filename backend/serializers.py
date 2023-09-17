@@ -54,6 +54,10 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
         model = UserRegistration
         fields = ['username', 'email', 'password']
 
+
+class UserLoginSerializer(serializers.Serializer):
+    pass
+
 from rest_framework import serializers
 from .models import ArtistRegistration
 

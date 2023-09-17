@@ -2,14 +2,14 @@
     {
       "id": 1,
       "title": "David, 1501-1504",
-      "artist": 5,
-      "description": "One of the most iconic works in all of art history, Michelangelo�s David had its origins in a larger project to decorate the buttresses of Florence�s great cathedral, the Duomo, with a group of figures taken from the Old Testament. The David was one, and was actually begun in 1464 by Agostino di Duccio. Over the next two years, Agostino managed to rough out part of the huge block of marble hewn from the famous quarry in Carrara before stopping in 1466. (No one knows why.) Another artist picked up the slack, but he, too, only worked on it briefly. The marble remained untouched for the next 25 years, until Michelangelo resumed carving it in 1501. He was 26 at the time. When finished, the David weighed six tons, meaning it couldn�t be hoisted to the cathedral�s roof. Instead, it was put on display just outside to the entrance to the Palazzo Vecchio, Florence�s town hall. The figure, one of the purest distillations of the High Renaissance style, was immediately embraced by the Florentine public as a symbol of the city-state�s own resistance against the powers arrayed against it. In 1873, the David was moved to Accademia Gallery, and a replica was installed in its original location.",
+      "by_artist": "Michelangelo Buonarroti",
+      "description": "One of the most iconic works in all of art history, Michelangelo's David had its origins in a larger project to decorate the buttresses of Florence's great cathedral, the Duomo, with a group of figures taken from the Old Testament. The David was one, and was actually begun in 1464 by Agostino di Duccio. Over the next two years, Agostino managed to rough out part of the huge block of marble hewn from the famous quarry in Carrara before stopping in 1466. (No one knows why.) Another artist picked up the slack, but he, too, only worked on it briefly. The marble remained untouched for the next 25 years, until Michelangelo resumed carving it in 1501. He was 26 at the time. When finished, the David weighed six tons, meaning it couldn't be hoisted to the cathedral's roof. Instead, it was put on display just outside to the entrance to the Palazzo Vecchio, Florence's town hall. The figure, one of the purest distillations of the High Renaissance style, was immediately embraced by the Florentine public as a symbol of the city-state's own resistance against the powers arrayed against it. In 1873, the David was moved to Accademia Gallery, and a replica was installed in its original location.",
       "image": "static/images/david.jpg",
       "price": 100.00
     },
     {
       "id": 2,
-      "title": "Ecstasy of Saint Teresa, 1647�52",
+      "title": "Ecstasy of Saint Teresa, 1647'52",
       "by_artist": "Gian Lorenzo Bernini",
       "description": "Acknowledged as an originator of the High Roman Baroque style, Gian Lorenzo Bernini created this masterpiece for a chapel in the Church of Santa Maria della Vittoria. The Baroque was inextricably linked to the Counter-Reformation through which the Catholic Church tried to stem the tide of Protestantism surging across 17th-century Europe. Artworks like Bernini's was part of the program to reaffirm Papal dogma, well served here by Bernini's genius for imbuing religious scenes with dramatic narratives. Ecstasy is a case in point: Its subject Saint Teresa of vila, a Spanish Carmelite nun and mystic who wrote of her encounter with an angel is depicted just as the angel is about to plunge an arrow into her heart. Ecstasy's erotic overtones are unmistakable, most obviously in the nun's orgasmic expression and the writhing fabric wrapping both figures. An architect as all as an artist, Bernini also designed the setting of the Chapel in marble, stucco and paint.",
       "image": "static/images/teresa.jpg",
@@ -17,33 +17,33 @@
     },
     {
       "id": 3,
-      "title": "Perseus with the Head of Medusa, 1804�6",
+      "title": "Perseus with the Head of Medusa, 1804'6",
       "by_artist": "Antonio Canova",
-      "description": "Italian artist Antonio Canova (1757�1822) is considered to be the greatest sculptor of the 18th-century. His work epitomized the Neo-Classical style, as you can see in his rendition in marble of the Greek mythical hero Perseus. Canova actually made two versions of the piece: One resides at the Vatican in Rome, while the other stands in the Metropolitan Museum of Art�s European Sculpture Court.",
+      "description": "Italian artist Antonio Canova (1757'1822) is considered to be the greatest sculptor of the 18th-century. His work epitomized the Neo-Classical style, as you can see in his rendition in marble of the Greek mythical hero Perseus. Canova actually made two versions of the piece: One resides at the Vatican in Rome, while the other stands in the Metropolitan Museum of Art's European Sculpture Court.",
       "image": "static/images/medusa.jpg",
       "price": 100.00
     },
     {
       "id": 4,
       "title": "The Little Fourteen-Year-Old Dancer, 1881/1922",
-      "artist": 16,
-      "description": "While Impressionist master Edgar Degas is best known as a painter, he also worked in sculpture, producing what was arguably the most radical effort of his oeuvre. Degas fashioned The Little Fourteen-Year-Old Dancer out of wax (from which subsequent bronze copies were cast after his death in 1917), but the fact that Degas dressed his eponymous subject in an actual ballet costume (complete with bodice, tutu and slippers) and wig of real hair caused a sensation when Dancer debuted at the Sixth Impressionist Exhibition of 1881 in Paris. Degas elected to cover most of his embellishments in wax to match the rest of girl�s features, but he kept the tutu, as well as a ribbon tying backing her hair, as they were, making the figure one of the first examples of found-object art. Dancer was the only sculpture that Degas exhibited in his lifetime; after his death, some 156 more examples were found languishing in his studio.",
+      "by_artist": "Edgar Degas",
+      "description": "While Impressionist master Edgar Degas is best known as a painter, he also worked in sculpture, producing what was arguably the most radical effort of his oeuvre. Degas fashioned The Little Fourteen-Year-Old Dancer out of wax (from which subsequent bronze copies were cast after his death in 1917), but the fact that Degas dressed his eponymous subject in an actual ballet costume (complete with bodice, tutu and slippers) and wig of real hair caused a sensation when Dancer debuted at the Sixth Impressionist Exhibition of 1881 in Paris. Degas elected to cover most of his embellishments in wax to match the rest of girl's features, but he kept the tutu, as well as a ribbon tying backing her hair, as they were, making the figure one of the first examples of found-object art. Dancer was the only sculpture that Degas exhibited in his lifetime; after his death, some 156 more examples were found languishing in his studio.",
       "image": "static/images/dancer.jpg",
       "price": 100.00
     },
     {
       "id": 5,
-      "title": "The Burghers of Calais, 1894�85",
+      "title": "The Burghers of Calais, 1894'85",
       "by_artist": "Auguste Rodin",
-      "description": "While most people associate the great French sculptor Auguste Rodin with The Thinker, this ensemble commemorating an incident during the Hundred Years' War (1337�1453) between Britain and France is more important to the history of sculpture. Commissioned for a park in the city of Calais (where a year-long siege by the English in 1346 was lifted when six town elders offered themselves up for execution in exchange for sparing the population), The Burghers eschewed the format typical of monuments at the time: Instead of figures isolated or piled into a pyramid atop a tall pedestal, Rodin assembled his life-size subjects directly on the ground, level with the viewer.",
+      "description": "While most people associate the great French sculptor Auguste Rodin with The Thinker, this ensemble commemorating an incident during the Hundred Years' War (1337'1453) between Britain and France is more important to the history of sculpture. Commissioned for a park in the city of Calais (where a year-long siege by the English in 1346 was lifted when six town elders offered themselves up for execution in exchange for sparing the population), The Burghers eschewed the format typical of monuments at the time: Instead of figures isolated or piled into a pyramid atop a tall pedestal, Rodin assembled his life-size subjects directly on the ground, level with the viewer.",
       "image": "static/images/burghers.jpg",
       "price": 100.00
     },
     {
       "id": 6,
       "title": "Guitar, 1912",
-      "artist": 2,
-      "description": "In 1912, Picasso created a cardboard maquette of a piece that would have an outsized impact on 20th-century art. Also in MoMA�s collection, it depicted a guitar, a subject Picasso often explored in painting and collage, and in many respects, Guitar transferred collage�s cut and paste techniques from two dimensions to three. It did the same for Cubism, as well, by assembling flat shapes to create a multifaceted form with both depth and volume. Picasso�s innovation was to eschew the conventional carving and modeling of a sculpture out of a solid mass. Instead, Guitar was fastened together like a structure. This idea would reverberate from Russian Constructivism down to Minimalism and beyond. Two years after making the Guitar in cardboard, Picasso created this version in snipped tin.Recommended",
+      "by_artist": "Pablo Picasso",
+      "description": "In 1912, Picasso created a cardboard maquette of a piece that would have an outsized impact on 20th-century art. Also in MoMA's collection, it depicted a guitar, a subject Picasso often explored in painting and collage, and in many respects, Guitar transferred collage's cut and paste techniques from two dimensions to three. It did the same for Cubism, as well, by assembling flat shapes to create a multifaceted form with both depth and volume. Picasso's innovation was to eschew the conventional carving and modeling of a sculpture out of a solid mass. Instead, Guitar was fastened together like a structure. This idea would reverberate from Russian Constructivism down to Minimalism and beyond. Two years after making the Guitar in cardboard, Picasso created this version in snipped tin.Recommended",
       "image": "static/images/guitar.jpg",
       "price": 100.00
     },
@@ -57,9 +57,9 @@
     },
     {
       "id": 8,
-      "title": "L�Air, 1938",
+      "title": "L'Air, 1938",
       "by_artist": "Aristide Maillol",
-      "description": "As painter and tapestry designer as well as a sculptor, French artist Aristide Maillol (1861�1944) could be best described as a modern Neo-Classicist who put a streamline, 20th-century spin on traditional Greco-Roman statuary. He could also be described as a radical conservative, though it should be remembered that even avant-garde contemporaries like Picasso produced works in an adaptation of Neo-Classical style after World War I. Maillol�s subject was the female nude, and in L�Air, he�s created a contrast between the material mass of his subject, and the way she appears to be floating in space�balancing, as it were, obdurate physicality with evanescent presence.",
+      "description": "As painter and tapestry designer as well as a sculptor, French artist Aristide Maillol (1861'1944) could be best described as a modern Neo-Classicist who put a streamline, 20th-century spin on traditional Greco-Roman statuary. He could also be described as a radical conservative, though it should be remembered that even avant-garde contemporaries like Picasso produced works in an adaptation of Neo-Classical style after World War I. Maillol's subject was the female nude, and in L'Air, he's created a contrast between the material mass of his subject, and the way she appears to be floating in space'balancing, as it were, obdurate physicality with evanescent presence.",
       "image": "static/images/lair.jpg",
       "price": 100.00
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "title": "Mlle Pogany, 1913",
       "by_artist": "Constantin Brancusi",
-      "description": "Born in Romania, Brancusi was one of most important sculptors of early-20th century modernism�and indeed, one of the most important figures in the entire history of sculpture. A sort of proto-minimalist, Brancusi took forms from nature and streamlined them into abstract representations. His style was influenced by the folk art of his homeland, which often featured vibrant geometric patterns and stylized motifs. He also made no distinction between object and base, treating them, in certain cases, as interchangeable components�an approach that represented a crucial break with sculptural traditions. This iconic piece is a portrait of his model and lover, Margit Pog�ny, a Hungarian art student he met in Paris in 1910. The first iteration was carved in marble, followed by a plaster copy from which this bronze was made. The plaster itself was exhibited in New York at the legendary Armory Show of 1913, where critics mocked and pilloried it. But it was also the most reproduced piece in the show. Brancusi worked on various versions of Mlle Pogany for some 20 years.",
+      "description": "Born in Romania, Brancusi was one of most important sculptors of early-20th century modernism'and indeed, one of the most important figures in the entire history of sculpture. A sort of proto-minimalist, Brancusi took forms from nature and streamlined them into abstract representations. His style was influenced by the folk art of his homeland, which often featured vibrant geometric patterns and stylized motifs. He also made no distinction between object and base, treating them, in certain cases, as interchangeable components'an approach that represented a crucial break with sculptural traditions. This iconic piece is a portrait of his model and lover, Margit Pog'ny, a Hungarian art student he met in Paris in 1910. The first iteration was carved in marble, followed by a plaster copy from which this bronze was made. The plaster itself was exhibited in New York at the legendary Armory Show of 1913, where critics mocked and pilloried it. But it was also the most reproduced piece in the show. Brancusi worked on various versions of Mlle Pogany for some 20 years.",
       "image": "static/images/pogany.jpg",
       "price": 100.00
     },
@@ -75,7 +75,7 @@
       "id": 10,
       "title": "Bicycle Wheel, 1913",
       "by_artist": "Marcel Duchamp",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
+      "description": "Bicycle Wheel is considered the first of Duchamp's revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. 'I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,' Duchamp would later say. It took a 1915 trip to New York, and exposure to the city's vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion'perhaps the first real example of Conceptual Art'would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn't survive: This version is actually a replica dating from 1951.",
       "image": "static/images/BicycleWheel.jpg",
       "price": 100.00
     },
@@ -83,7 +83,7 @@
       "id": 11,
       "title": "Calder's Circus, 1926-31",
       "by_artist": "Alexander Calder",
-      "description": "A beloved fixture of the Whitney Museum�s permanent collection, Calder�s Circus distills the playful essence that Alexander Calder (1898�1976) brought to bear as an artist who helped to shape 20th-sculpture. Circus, which was created during the artist�s time in Paris, was less abstract than his hanging �mobiles,� but in it�s own way, it was just as kinetic: Made primarily out of wire and wood, Circus served as the centerpiece for improvisational performances, in which Calder moved around various figures depicting contortionists, sword swallowers, lion tamers, etc., like godlike ringmaster.  ",
+      "description": "A beloved fixture of the Whitney Museum's permanent collection, Calder's Circus distills the playful essence that Alexander Calder (1898'1976) brought to bear as an artist who helped to shape 20th-sculpture. Circus, which was created during the artist's time in Paris, was less abstract than his hanging 'mobiles,' but in it's own way, it was just as kinetic: Made primarily out of wire and wood, Circus served as the centerpiece for improvisational performances, in which Calder moved around various figures depicting contortionists, sword swallowers, lion tamers, etc., like godlike ringmaster.  ",
       "image": "static/images/circus.jpg",
       "price": 100.00
     },
@@ -91,7 +91,7 @@
       "id": 12,
       "title": "Venus of Willendorf, 28,000-25,000 BC",
       "by_artist": "unknown",
-      "description": "The ur sculpture of art history, this tiny figurine measuring just over four inches in height was discovered in Austria in 1908. Nobody knows what function it served, but guesswork has ranged from fertility goddess to masturbation aid. Some scholars suggest it may have been a self-portrait made by a woman. It�s the most famous of many such objects dating from the Old Stone Age.",
+      "description": "The ur sculpture of art history, this tiny figurine measuring just over four inches in height was discovered in Austria in 1908. Nobody knows what function it served, but guesswork has ranged from fertility goddess to masturbation aid. Some scholars suggest it may have been a self-portrait made by a woman. It's the most famous of many such objects dating from the Old Stone Age.",
       "image": "static/images/venus.jpg",
       "price": 100.00
     },
@@ -99,7 +99,7 @@
       "id": 13,
       "title": "Bust of Nefertiti, 1345 BC",
       "by_artist": "unknown",
-      "description": "This portrait has been a symbol of feminine beauty since it was first unearthed in 1912 within the ruins of Amarna, the capital city built by the most controversial Pharaoh of Ancient Egyptian history: Akhenaten. The life of his queen, Nefertiti, is something of mystery: It's thought that she ruled as Pharaoh for a time after Akhenaten�s death�or more likely, as the co-regent of the Boy King Tutankhamun. Some Egyptologist believe she was actually Tut�s mother. This stucco-coated limestone bust is thought to be the handiwork of Thutmose, Akhenaten�s court sculptor.",
+      "description": "This portrait has been a symbol of feminine beauty since it was first unearthed in 1912 within the ruins of Amarna, the capital city built by the most controversial Pharaoh of Ancient Egyptian history: Akhenaten. The life of his queen, Nefertiti, is something of mystery: It's thought that she ruled as Pharaoh for a time after Akhenaten's death'or more likely, as the co-regent of the Boy King Tutankhamun. Some Egyptologist believe she was actually Tut's mother. This stucco-coated limestone bust is thought to be the handiwork of Thutmose, Akhenaten's court sculptor.",
       "image": "static/images/nefertiti.jpg",
       "price": 100.00
     },
@@ -107,14 +107,14 @@
       "id": 14,
       "title": "Accumulation No 1, 1962",
       "by_artist": "Yayoi Kusama",
-      "description": "A Japanese artist who works in multiple mediums, Kusama came to New York in 1957 returning to Japan in 1972. In the interim, she established herself as a major figure of the downtown scene, one whose art touched many bases, including Pop Art, Minimalism and Performance Art. As a woman artist who often referred to female sexuality, she was also a precursor of Feminist Art. Kusama�s work is often characterized by hallucinogenic patterns and repetitions of forms, a proclivity rooted in certain psychological conditions�hallucinations, OCD�she�s suffered since childhood. All of these aspects of Kusuma�s art and life are reflected in this work, in which an ordinary, upholstered easy chair is unnervingly subsumed by a plaguelike outbreak of phallic protuberances made of sewn stuffed fabric.",
+      "description": "A Japanese artist who works in multiple mediums, Kusama came to New York in 1957 returning to Japan in 1972. In the interim, she established herself as a major figure of the downtown scene, one whose art touched many bases, including Pop Art, Minimalism and Performance Art. As a woman artist who often referred to female sexuality, she was also a precursor of Feminist Art. Kusama's work is often characterized by hallucinogenic patterns and repetitions of forms, a proclivity rooted in certain psychological conditions'hallucinations, OCD'she's suffered since childhood. All of these aspects of Kusuma's art and life are reflected in this work, in which an ordinary, upholstered easy chair is unnervingly subsumed by a plaguelike outbreak of phallic protuberances made of sewn stuffed fabric.",
       "image": "static/images/accumulation.jpg",
       "price": 100.00
     },
     {
       "id": 15,
       "title": "Bicycle Wheel, 1913",
-      "by_artist": "Marisol Escobar (1930�2016)",
+      "by_artist": "Marisol Escobar (1930'2016)",
       "description": "Known simply by her first name, Marisol Escobar  was born in Paris to Venezuelan parents. As an artist, she became associated with Pop Art and later Op Art, though stylistically, she belonged to neither group. Instead, she created figurative tableaux that were meant as feminist satires of gender roles, celebrity and wealth. In Women and Dog she takes on the objectification of women, and the way that male-imposed standards of femininity are used to force them to conform.",
       "image": "static/images/Women and Dog.jpg",
       "price": 100.00
@@ -122,8 +122,8 @@
     {
       "id": 16,
       "title": "Brillo Box (Soap Pads), 1964",
-      "artist": 10,
-      "description": "The Brillo Box is perhaps the best known of a series of sculptural works Warhol created in the mid-�60s, which effectively took his investigation of pop culture into three dimensions. True to the name Warhol had given his studio�the Factory�the artist hired carpenters to work a kind of assembly line, nailing together wooden boxes in the shape of cartons for various products, including Heinz Ketchup, Kellogg�s Corn Flakes and Campbell�s Soup, as well Brillo soap pads. He then painted each box a color matching the original (white in the case of Brillo) before adding the product name and logo in silkscreen. Created in multiples, the boxes were often shown in large stacks, effectively turning whatever gallery they were in into a high-cultural facsimile of a warehouse. Their shape and serial production was perhaps a nod to�or parody of�the then-nascent Minimalist style. But the real point of Brillo Box is how its close approximation to the real thing subverts artistic conventions, by implying that there�s no real difference between manufactured goods and work from an artist�s studio.",
+      "by_artist": "Andy Warhol",
+      "description": "The Brillo Box is perhaps the best known of a series of sculptural works Warhol created in the mid-'60s, which effectively took his investigation of pop culture into three dimensions. True to the name Warhol had given his studio'the Factory'the artist hired carpenters to work a kind of assembly line, nailing together wooden boxes in the shape of cartons for various products, including Heinz Ketchup, Kellogg's Corn Flakes and Campbell's Soup, as well Brillo soap pads. He then painted each box a color matching the original (white in the case of Brillo) before adding the product name and logo in silkscreen. Created in multiples, the boxes were often shown in large stacks, effectively turning whatever gallery they were in into a high-cultural facsimile of a warehouse. Their shape and serial production was perhaps a nod to'or parody of'the then-nascent Minimalist style. But the real point of Brillo Box is how its close approximation to the real thing subverts artistic conventions, by implying that there's no real difference between manufactured goods and work from an artist's studio.",
       "image": "static/images/brillobox.jpg",
       "price": 100.00
     },
@@ -131,7 +131,7 @@
       "id": 17,
       "title": "Spider, 1996",
       "by_artist": "Louise Bourgeois",
-      "description": "The French-born artist�s signature work, Spider was created in the mid-1990s when Bourgeois (1911-2010) was already in her eighties. It exists in numerous versions of varying scale, including some that are monumental. Spider is meant as a tribute to the artist�s mother, a tapestry restorer (hence the allusion to the arachnid's propensity for spinning webs).",
+      "description": "The French-born artist's signature work, Spider was created in the mid-1990s when Bourgeois (1911-2010) was already in her eighties. It exists in numerous versions of varying scale, including some that are monumental. Spider is meant as a tribute to the artist's mother, a tapestry restorer (hence the allusion to the arachnid's propensity for spinning webs).",
       "image": "static/images/spider.jpg",
       "price": 100.00
     },
@@ -139,7 +139,7 @@
       "id": 18,
       "title": "The Angel of the North, 1998",
       "by_artist": "Antony Gormley",
-      "description": "Winner of the prestigious Turner Prize in 1994, Antony Gormley is one of the most celebrated contemporary sculptors in the UK, but he�s also known the world over for his unique take on figurative art, one in which wide variations in scale and style are based, for the most part, on the same template: A cast of the artist�s own body. That�s true of this enormous winged monument located near the town of Gateshead in northeastern England. Sited along a major highway, Angel soars to 66 feet in height and spans 177 feet in width from wingtip to wingtip. According the Gormley, the work is meant as a sort of symbolic marker between Britain�s industrial past (the sculpture is located in the England�s coal country, the heart of the Industrial Revolution) and its post-industrial future.",
+      "description": "Winner of the prestigious Turner Prize in 1994, Antony Gormley is one of the most celebrated contemporary sculptors in the UK, but he's also known the world over for his unique take on figurative art, one in which wide variations in scale and style are based, for the most part, on the same template: A cast of the artist's own body. That's true of this enormous winged monument located near the town of Gateshead in northeastern England. Sited along a major highway, Angel soars to 66 feet in height and spans 177 feet in width from wingtip to wingtip. According the Gormley, the work is meant as a sort of symbolic marker between Britain's industrial past (the sculpture is located in the England's coal country, the heart of the Industrial Revolution) and its post-industrial future.",
       "image": "static/images/north.jpg",
       "price": 100.00
     },
@@ -147,7 +147,7 @@
       "id": 19,
       "title": "Cloud Gate, 2006",
       "by_artist": "Anish Kapoor",
-      "description": "Affectionately called �The Bean� by Chicagoans for its bent ellipsoidal form, Cloud Gate, Anish Kapoor�s public art centerpiece for the Second City�s Millennium Park, is both artwork and architecture, providing an Instagram-ready archway for Sunday strollers and other visitors to the park. Fabricated from mirrored steel, Cloud Gate�s fun-house reflectivity and large-scale makes it Kapoor�s best-known piece.",
+      "description": "Affectionately called 'The Bean' by Chicagoans for its bent ellipsoidal form, Cloud Gate, Anish Kapoor's public art centerpiece for the Second City's Millennium Park, is both artwork and architecture, providing an Instagram-ready archway for Sunday strollers and other visitors to the park. Fabricated from mirrored steel, Cloud Gate's fun-house reflectivity and large-scale makes it Kapoor's best-known piece.",
       "image": "static/images/cloudgate.jpg",
       "price": 100.00
     },
@@ -155,23 +155,23 @@
       "id": 21,
       "title": "Alexander the Great, 2007",
       "by_artist": "Rachel Harrison",
-      "description": "Rachel Harrison�s work combines a consummate formalism with a knack for imbuing seemingly abstract elements with multiple meanings, including political ones. She fiercely questions monumentality and the masculine prerogative that goes with it. Harrison creates the bulk of her sculptures by stacking and arranging blocks or slabs of Styrofoam, before covering them in a combination of cement and painterly flourishes. The cherry on top is some sort of found object, either alone or in combination with others. A prime example is this mannequin atop an elongated, paint-splashed form. Wearing a cape, and a backwards-facing Abraham Lincoln mask, the work sends up the great man theory of history with its evocation of the Ancient World�s conqueror standing tall on a clown-colored rock.",
+      "description": "Rachel Harrison's work combines a consummate formalism with a knack for imbuing seemingly abstract elements with multiple meanings, including political ones. She fiercely questions monumentality and the masculine prerogative that goes with it. Harrison creates the bulk of her sculptures by stacking and arranging blocks or slabs of Styrofoam, before covering them in a combination of cement and painterly flourishes. The cherry on top is some sort of found object, either alone or in combination with others. A prime example is this mannequin atop an elongated, paint-splashed form. Wearing a cape, and a backwards-facing Abraham Lincoln mask, the work sends up the great man theory of history with its evocation of the Ancient World's conqueror standing tall on a clown-colored rock.",
       "image": "static/images/thegreat.jpg",
       "price": 100.00
     },
     {
       "id": 22,
-      "title": "Caf� Terrace at Night - 1888 ",
-      "artist": 4,
-      "description": "Caf� Terrace at Night, a painting by Vincent Van Gogh completed in 1888, came under the spotlight recently when scholars claimed to have found within it, a homage to Leonardo da Vinci�s The Last Supper.And sure enough, if one looks closely, you can see that the painting features twelve seated diners and a standing server, and what could be seen as a cross behind the central, long-haired figure.Although this symbolism was never explicitly stated by Van Gogh, in a letter he wrote to his brother soon after completing the painting, the artist claimed that he had a �tremendous need for, shall I say the word - for religion�, making the reference to The Last Supper in the painting very likely.",
+      "title": "Caf' Terrace at Night - 1888 ",
+      "by_artist": "Vincent Van Gogh",
+      "description": "Caf' Terrace at Night, a painting by Vincent Van Gogh completed in 1888, came under the spotlight recently when scholars claimed to have found within it, a homage to Leonardo da Vinci's The Last Supper.And sure enough, if one looks closely, you can see that the painting features twelve seated diners and a standing server, and what could be seen as a cross behind the central, long-haired figure.Although this symbolism was never explicitly stated by Van Gogh, in a letter he wrote to his brother soon after completing the painting, the artist claimed that he had a 'tremendous need for, shall I say the word - for religion', making the reference to The Last Supper in the painting very likely.",
       "image": "static/images/cafeterrace.jpg",
       "price": 100.00
     },
     {
       "id": 23,
       "title": "The Last Supper",
-      "artist": 1,
-      "description": "It is true that the original painting �The Last Supper� by Leonardo da Vinci has always fascinated people from the around the world, especially if one looks at the many conspiracies and theories materializing every now and then. In 2007, an Italian musician claimed to have found musical notes in the painting, that results in a tuneful 40-second musical composition. The notes, which are �hidden� in the bread rolls and hands of the apostles in the painting, is read from right to left, following Da Vinci's own writing style.While the theory is not confirmed, many believe that it is plausible, especially since Da Vinci was an excellent musician himself.",
+      "by_artist": "Leonardo Da Vinci",
+      "description": "It is true that the original painting 'The Last Supper' by Leonardo da Vinci has always fascinated people from the around the world, especially if one looks at the many conspiracies and theories materializing every now and then. In 2007, an Italian musician claimed to have found musical notes in the painting, that results in a tuneful 40-second musical composition. The notes, which are 'hidden' in the bread rolls and hands of the apostles in the painting, is read from right to left, following Da Vinci's own writing style.While the theory is not confirmed, many believe that it is plausible, especially since Da Vinci was an excellent musician himself.",
       "image": "static/images/supper.jpg",
       "price": 100.00
     },
@@ -187,13 +187,13 @@
       "id": 25,
       "title": "The Madonna with Saint Giovannino",
       "by_artist": "Domenico Ghirlandaio",
-      "description": "Though Italian Renaissance painter Domenico Ghirlandaio painted The Madonna with Saint Giovannino in the 15th century, this particular piece of art has kept viewers baffled until today. The painting, which portrays the Madonna with Jesus, appears to have nothing out of the ordinary. But when looked at more closely, it features an unidentifiable object hovering in the sky! Hugely detailed, probably in order to ensure that it stands out, the object can be seen near Mary�s left shoulder. Under the object, on the ledge, the painting features a man staring at it, as he blocks the sun out with his hand.Not surprisingly, the painting has intrigued U.F.O enthusiasts for ages, and while there is no agreement regarding the nature of the object, there is no doubt that its presence makes the painting a fascinating one!",
+      "description": "Though Italian Renaissance painter Domenico Ghirlandaio painted The Madonna with Saint Giovannino in the 15th century, this particular piece of art has kept viewers baffled until today. The painting, which portrays the Madonna with Jesus, appears to have nothing out of the ordinary. But when looked at more closely, it features an unidentifiable object hovering in the sky! Hugely detailed, probably in order to ensure that it stands out, the object can be seen near Mary's left shoulder. Under the object, on the ledge, the painting features a man staring at it, as he blocks the sun out with his hand.Not surprisingly, the painting has intrigued U.F.O enthusiasts for ages, and while there is no agreement regarding the nature of the object, there is no doubt that its presence makes the painting a fascinating one!",
       "image": "static/images/madonna.jpg",
       "price": 100.00
     },
     {
       "id": 26,
-      "title": "The Terracotta Army, 210–209 BC",
+      "title": "The Terracotta Army, 210-209 BC",
       "by_artist": "unknown",
       "description": "Discovered in 1974, the Terracotta Army is an enormous cache of clay statues buried in three massive pits near the tomb of Shi Huang, the first Emperor of China, who died in 210 BC. Meant to protect him in the afterlife, the Army is believed by some estimates to number more than 8,000 soldiers along with 670 horses and 130 chariots. Each is life-size, though actual height varies according to military rank.",
       "image": "static/images/terracota.png",
@@ -201,33 +201,33 @@
     },
     {
       "id": 27,
-      "title": "Laocoön and His Sons, Second Century BC",
+      "title": "Laocon and His Sons, Second Century BC",
       "by_artist": "unknown",
-      "description": "Perhaps the most famous sculpture of Roman antiquity, Laocoön and His Sons was originally unearthed in Rome in 1506 and moved to the Vatican, where it resides to this day. It is based on the myth of a Trojan priest killed along with his sons by sea serpents sent by the sea god Poseidon as retribution for Laocoön’s attempt to expose the ruse of the Trojan Horse. Originally installed in the palace of Emperor Titus, this life-size figurative grouping, attributed to a trio of Greek sculptors from the Island of Rhodes, is unrivaled as a study of human suffering.",
+      "description": "Perhaps the most famous sculpture of Roman antiquity, Laoco�n and His Sons was originally unearthed in Rome in 1506 and moved to the Vatican, where it resides to this day. It is based on the myth of a Trojan priest killed along with his sons by sea serpents sent by the sea god Poseidon as retribution for Laoco�n�s attempt to expose the ruse of the Trojan Horse. Originally installed in the palace of Emperor Titus, this life-size figurative grouping, attributed to a trio of Greek sculptors from the Island of Rhodes, is unrivaled as a study of human suffering.",
       "image": "static/images/laccoon and sons.jpg",
       "price": 100.00
     },
     {
       "id": 28,
-      "title": "Mona Lisa (c. 1503–19)",
+      "title": "Mona Lisa (c. 1503�19)",
       "by_artist": "Leonardo da Vinci",
-      "description": "The world’s most famous artwork, the Mona Lisa draws thousands of visitors to the Louvre Museum each day, many of whom are compelled by the sitter’s mysterious gaze and enigmatic smile. The seemingly ordinary portrait of a young woman dressed modestly in a thin veil, somber colors, and no jewelry might also confound its viewers, who may wonder what all the fuss is about. The painting’s simplicity belies Leonardo’s talent for realism. The subject’s softly modeled face shows his skillful handling of sfumato, an artistic technique that uses subtle gradations of light and shadow, rather than line, to model form. The delicately painted veil, the finely wrought tresses, and the careful rendering of folded fabric reveal Leonardo’s tireless patience in recreating his studied observations. Moreover, the sitter’s perplexing expression only adds to her realism. Her smile might be engaging or it might be mocking—viewers can’t quite figure it out because, like a human, she is a complex figure, embodying contrary characteristics simultaneously.",
+      "description": "The world�s most famous artwork, the Mona Lisa draws thousands of visitors to the Louvre Museum each day, many of whom are compelled by the sitter�s mysterious gaze and enigmatic smile. The seemingly ordinary portrait of a young woman dressed modestly in a thin veil, somber colors, and no jewelry might also confound its viewers, who may wonder what all the fuss is about. The painting�s simplicity belies Leonardo�s talent for realism. The subject�s softly modeled face shows his skillful handling of sfumato, an artistic technique that uses subtle gradations of light and shadow, rather than line, to model form. The delicately painted veil, the finely wrought tresses, and the careful rendering of folded fabric reveal Leonardo�s tireless patience in recreating his studied observations. Moreover, the sitter�s perplexing expression only adds to her realism. Her smile might be engaging or it might be mocking�viewers can�t quite figure it out because, like a human, she is a complex figure, embodying contrary characteristics simultaneously.",
       "image": "static/images/Mona-Lisa.jpg",
       "price": 100.00
     },
     {
       "id": 29,
-      "title": "Last Supper (c. 1495–98)",
+      "title": "Last Supper (c. 1495-98)",
       "by_artist": "Leonardo da Vinci",
-      "description": "One of the most famous paintings in the world, the Last Supper was commissioned by Ludovico Sforza, duke of Milan and Leonardo’s patron during his first stay in that city, for the Dominican monastery of Santa Maria delle Grazie. Depicting a sequential narrative, Leonardo illustrates several closely connected moments in the Gospels, including Matthew 26:21–28, in which Jesus declares that one of the Apostles will betray him and then institutes the Eucharist. Leonardo, who was intrigued by the manner in which a man’s character can reveal itself in posture, expression, and gesture, depicted each disciple’s unique reaction to the declaration. The Apostles’ postures rise, fall, extend, and intertwine as they appear to whisper, yell, grieve, and debate around Jesus, who sits serenely in the center. Because of Leonardo’s experimental painting technique, in which he used tempera or oil paint on two layers of preparatory ground, the work began to disintegrate soon after he finished it. Viewers, however, can still recognize it as a complex study of varied human emotion, revealed in a deceptively simple composition.",
+      "description": "One of the most famous paintings in the world, the Last Supper was commissioned by Ludovico Sforza, duke of Milan and Leonardo�s patron during his first stay in that city, for the Dominican monastery of Santa Maria delle Grazie. Depicting a sequential narrative, Leonardo illustrates several closely connected moments in the Gospels, including Matthew 26:21-28, in which Jesus declares that one of the Apostles will betray him and then institutes the Eucharist. Leonardo, who was intrigued by the manner in which a man's character can reveal itself in posture, expression, and gesture, depicted each disciple's unique reaction to the declaration. The Apostles postures rise, fall, extend, and intertwine as they appear to whisper, yell, grieve, and debate around Jesus, who sits serenely in the center. Because of Leonardo's experimental painting technique, in which he used tempera or oil paint on two layers of preparatory ground, the work began to disintegrate soon after he finished it. Viewers, however, can still recognize it as a complex study of varied human emotion, revealed in a deceptively simple composition.",
       "image": "static/images/Last-Supper.jpg",
       "price": 100.00
     },
     {
       "id": 30,
-      "title": "Head of a Woman (1500–10)",
+      "title": "Head of a Woman (1500-10)",
       "by_artist": "Leonardo da Vinci",
-      "description": "Head of a Woman, a small brush drawing with pigment, depicts a young woman with her head tilted and her eyes downcast. Her posture recalls the Virgin Mary in Leonardo’s The Virgin of the Rocks, suggesting that the drawing may have served as a model. The drawing’s nickname, La scapigliata, translates to “disheveled” and refers to the young woman’s wayward strands of hair. The loosely sketched tendrils and shoulders contrast with the highly finished face, where Leonardo gently modeled the woman’s delicate features, from her heavy eyelids to her tender lips. It reveals Leonardo’s fluid means of working, utilizing both expressive drawing to create form and controlled layering to provide detail.",
+      "description": "Head of a Woman, a small brush drawing with pigment, depicts a young woman with her head tilted and her eyes downcast. Her posture recalls the Virgin Mary in Leonardo's The Virgin of the Rocks, suggesting that the drawing may have served as a model. The drawing's nickname, La scapigliata, translates to disheveled and refers to the young woman's wayward strands of hair. The loosely sketched tendrils and shoulders contrast with the highly finished face, where Leonardo gently modeled the woman's delicate features, from her heavy eyelids to her tender lips. It reveals Leonardo's fluid means of working, utilizing both expressive drawing to create form and controlled layering to provide detail.",
       "image": "static/images/Head-Woman.jpg",
       "price": 100.00
     },
@@ -235,31 +235,31 @@
       "id": 31,
       "title": "Vitruvian Man (c. 1490)",
       "by_artist": "Leonardo da Vinci",
-      "description": "Leonardo’s pen-and-ink drawing Vitruvian Man comes from one of the many notebooks that he kept on hand during his mature years. It is accompanied by notes, written in mirror script, on the ideal human proportions that the Roman architect Vitruvius laid out in a book on architecture from the 1st century BCE. The drawing illustrates Vitruvius’s theory that the ideal human could fit within a circle and a square, two irreconcilable shapes. Leonardo resolved the concept by drawing a male figure in two superimposed positions—one with his arms outstretched to fit in a square and another with his legs and arms spread in a circle. The work shows not only Leonardo’s effort to understand significant texts but also his desire to expand on them. He was not the first to illustrate Vitruvius’s concepts, but his drawing later became the most iconic, partly because its combination of mathematics, philosophy, and art seemed a fitting symbol of the Renaissance. The drawing is now housed in the Gallerie dell’Accademia, Venice, where it is not typically on display but kept in a climate-controlled archive.",
+      "description": "Leonardo's pen-and-ink drawing Vitruvian Man comes from one of the many notebooks that he kept on hand during his mature years. It is accompanied by notes, written in mirror script, on the ideal human proportions that the Roman architect Vitruvius laid out in a book on architecture from the 1st century BCE. The drawing illustrates Vitruvius's theory that the ideal human could fit within a circle and a square, two irreconcilable shapes. Leonardo resolved the concept by drawing a male figure in two superimposed positions one with his arms outstretched to fit in a square and another with his legs and arms spread in a circle. The work shows not only Leonardo's effort to understand significant texts but also his desire to expand on them. He was not the first to illustrate Vitruvius's concepts, but his drawing later became the most iconic, partly because its combination of mathematics, philosophy, and art seemed a fitting symbol of the Renaissance. The drawing is now housed in the Gallerie dell Accademia, Venice, where it is not typically on display but kept in a climate-controlled archive.",
       "image": "static/images/Vitruvian.jpg",
       "price": 100.00
     },
     {
       "id": 32,
-      "title": "Self Portrait (c. 1490/1515–16)",
+      "title": "Self Portrait (c. 1490/1515�16)",
       "by_artist": "Leonardo da Vinci",
-      "description": "Long regarded as a self-portrait, the red chalk drawing of an old man with long wavy hair and a beard has been reproduced to such an extent that it defines how most people think of Leonardo’s appearance. Yet some scholars argue that the figure, with its craggy features, furrowed brow, and downcast eyes, appears much older than the age Leonardo ever reached; Leonardo died at age 67. They propose that the drawing may be one of his grotesque drawings, sketches he habitually made in his notebooks of people with eccentric features. Whomever the portrait represents, it is a departure from Leonardo’s often captivating subjects, yet he managed to imbue the figure with the nobility and wisdom of a mature age.",
+      "description": "Long regarded as a self-portrait, the red chalk drawing of an old man with long wavy hair and a beard has been reproduced to such an extent that it defines how most people think of Leonardo�s appearance. Yet some scholars argue that the figure, with its craggy features, furrowed brow, and downcast eyes, appears much older than the age Leonardo ever reached; Leonardo died at age 67. They propose that the drawing may be one of his grotesque drawings, sketches he habitually made in his notebooks of people with eccentric features. Whomever the portrait represents, it is a departure from Leonardo�s often captivating subjects, yet he managed to imbue the figure with the nobility and wisdom of a mature age.",
       "image": "static/images/Self-portrait.jpg",
       "price": 100.00
     },
     {
       "id": 33,
-      "title": "The Virgin of the Rocks (c. 1483–86)",
+      "title": "The Virgin of the Rocks (c. 1483�86)",
       "by_artist": "Leonardo da Vinci",
-      "description": "Based on stylistic evidence, many scholars consider the painting. The Virgin of the Rocks in the Louvre the first of two paintings that Leonardo made of an apocryphal legend in which the Holy Family meets Saint John the Baptist as they flee to Egypt from Herod’s Massacre of the Innocents. Leonardo was involved in years of litigation with the Confraternity of the Immaculate Conception, which commissioned the work, and the dispute eventually led Leonardo to paint another version of the subject about 1508, which is now housed in the National Gallery of London.The first painting shows the ways in which Leonardo ushered in the High Renaissance. Early paintings from this period often depicted figures in linear arrangements, separate from one another, and stiff in form. In The Virgin of the Rocks, however, the figures of the Virgin Mary, the Christ Child, the infant John, and an archangel are arranged in a pyramidal composition, and they not only convincingly occupy a space but interact with one another through gestures and glances. A youthful Mary sits on the ground in a mysterious rocky landscape, not on a throne as so many early Renaissance paintings depicted her. Her body has movement—it seems to sway as she tilts her head protectively toward the infant John, who kneels in prayer at the left, and she looks as if she nudges him over to the Christ Child at the right. Jesus, in turn, blesses John as an archangel, seen in a complex pose from the back, points toward John and glances inscrutably outward at the viewer. Leonardo also notably excluded traditional holy signifiers—halos for Mary and Christ and a staff for John—so that the Holy Family appears less divine and more human.",
+      "description": "Based on stylistic evidence, many scholars consider the painting. The Virgin of the Rocks in the Louvre the first of two paintings that Leonardo made of an apocryphal legend in which the Holy Family meets Saint John the Baptist as they flee to Egypt from Herod�s Massacre of the Innocents. Leonardo was involved in years of litigation with the Confraternity of the Immaculate Conception, which commissioned the work, and the dispute eventually led Leonardo to paint another version of the subject about 1508, which is now housed in the National Gallery of London.The first painting shows the ways in which Leonardo ushered in the High Renaissance. Early paintings from this period often depicted figures in linear arrangements, separate from one another, and stiff in form. In The Virgin of the Rocks, however, the figures of the Virgin Mary, the Christ Child, the infant John, and an archangel are arranged in a pyramidal composition, and they not only convincingly occupy a space but interact with one another through gestures and glances. A youthful Mary sits on the ground in a mysterious rocky landscape, not on a throne as so many early Renaissance paintings depicted her. Her body has movement�it seems to sway as she tilts her head protectively toward the infant John, who kneels in prayer at the left, and she looks as if she nudges him over to the Christ Child at the right. Jesus, in turn, blesses John as an archangel, seen in a complex pose from the back, points toward John and glances inscrutably outward at the viewer. Leonardo also notably excluded traditional holy signifiers�halos for Mary and Christ and a staff for John�so that the Holy Family appears less divine and more human.",
       "image": "static/images/Virgin-of-the-Rocks.jpg",
       "price": 100.00
     },
     {
       "id": 34,
-      "title": "Lady with an Ermine (c. 1489–91)",
+      "title": "Lady with an Ermine (c. 1489�91)",
       "by_artist": "Leonardo da Vinci",
-      "description": "Many art historians identify the youthful woman in Lady with an Ermine as Cecilia Gallerani, the mistress of Leonardo’s patron, Ludovico Sforza, duke of Milan. The ermine was often used as an emblem for the duke. The woman turns her head to the right, her bright eyes seemingly directed toward something outside the frame. Although the painting has been heavily overpainted, notably the dark background, it nonetheless reveals Leonardo’s knowledge of anatomy and his ability to represent character in posture and expression. He captures the girl’s youth and genial nature in her guileless features, attentive gaze, and tender embrace of the ermine, which sits with its head cocked regally and alert. Her slender hand reveals the complicated bone structure beneath the skin, just as the head of the ermine suggests the skull underneath the finely rendered fur.",
+      "description": "Many art historians identify the youthful woman in Lady with an Ermine as Cecilia Gallerani, the mistress of Leonardo�s patron, Ludovico Sforza, duke of Milan. The ermine was often used as an emblem for the duke. The woman turns her head to the right, her bright eyes seemingly directed toward something outside the frame. Although the painting has been heavily overpainted, notably the dark background, it nonetheless reveals Leonardo�s knowledge of anatomy and his ability to represent character in posture and expression. He captures the girl�s youth and genial nature in her guileless features, attentive gaze, and tender embrace of the ermine, which sits with its head cocked regally and alert. Her slender hand reveals the complicated bone structure beneath the skin, just as the head of the ermine suggests the skull underneath the finely rendered fur.",
       "image": "static/images/Lady-Ermine.jpg",
       "price": 100.00
     },
@@ -267,7 +267,7 @@
       "id": 35,
       "title": "Salvator Mundi (c. 1500)",
       "by_artist": "Leonardo da Vinci",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
+      "description": "Bicycle Wheel is considered the first of Duchamp's revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. 'I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,' Duchamp would later say. It took a 1915 trip to New York, and exposure to the city's vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion'perhaps the first real example of Conceptual Art'would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn't survive: This version is actually a replica dating from 1951.",
       "image": "static/images/BicycleWheel.jpg",
       "price": 100.00
     },
@@ -275,31 +275,31 @@
       "id": 36,
       "title": "Salvator Mundi (c. 1500)",
       "by_artist": "Leonardo da Vinci",
-      "description": "The head-on portrait of Salvator Mundi (c. 1500; “Savior of the World”) made headlines in 2017 when it sold for a record-breaking $450.3 million at auction. The high price was all the more surprising when considering that Salvator Mundi was in poor condition, it had a questionable history, and its attribution was a subject of debate among scholars and critics. Many pundits remarked on the poor skill used to represent Jesus’ face; the stiff posture, which was so unlike the Renaissance master’s characteristic twisting poses; and the unconvincing representation of the glass globe, which, if solid, would have reflected a distorted view of its holder, an optical trick that Leonardo would have known about. Christie’s, the auction house that managed the sale, dismissed the criticisms, noting that any lack of craft was the result of heavy restoration in previous centuries and pointed to the soft modeling of Jesus’ right hand and the finesse of his tight curls, both characteristics that resembled Leonardo’s technique. The auction house also asserted that conservators had confirmed that the painting was made of the same materials that Leonardo would have used, notably ultramarine, an expensive high-quality blue pigment often reserved exclusively for virtuosos. The attribution debate continued well after the sale, but the interest in the work and the large sum paid at auction attested to Leonardo’s enduring celebrity and to his powerful position in the art history canon five centuries after his death.",
+      "description": "The head-on portrait of Salvator Mundi (c. 1500; �Savior of the World�) made headlines in 2017 when it sold for a record-breaking $450.3 million at auction. The high price was all the more surprising when considering that Salvator Mundi was in poor condition, it had a questionable history, and its attribution was a subject of debate among scholars and critics. Many pundits remarked on the poor skill used to represent Jesus� face; the stiff posture, which was so unlike the Renaissance master�s characteristic twisting poses; and the unconvincing representation of the glass globe, which, if solid, would have reflected a distorted view of its holder, an optical trick that Leonardo would have known about. Christie�s, the auction house that managed the sale, dismissed the criticisms, noting that any lack of craft was the result of heavy restoration in previous centuries and pointed to the soft modeling of Jesus� right hand and the finesse of his tight curls, both characteristics that resembled Leonardo�s technique. The auction house also asserted that conservators had confirmed that the painting was made of the same materials that Leonardo would have used, notably ultramarine, an expensive high-quality blue pigment often reserved exclusively for virtuosos. The attribution debate continued well after the sale, but the interest in the work and the large sum paid at auction attested to Leonardo�s enduring celebrity and to his powerful position in the art history canon five centuries after his death.",
       "image": "static/images/Salvator.jpg",
       "price": 100.00
     },
     {
       "id": 37,
-      "title": "Ginevra de’ Benci (c. 1474/78)",
+      "title": "Ginevra de� Benci (c. 1474/78)",
       "by_artist": "Leonardo da Vinci",
-      "description": "Bicycle Wheel is considered the first of Duchamp�s revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. �I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,� Duchamp would later say. It took a 1915 trip to New York, and exposure to the city�s vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion�perhaps the first real example of Conceptual Art�would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn�t survive: This version is actually a replica dating from 1951.",
+      "description": "Bicycle Wheel is considered the first of Duchamp's revolutionary readymades. However, when he completed the piece in his Paris studio, he really had no idea what to call it. 'I had the happy idea to fasten a bicycle wheel to a kitchen stool and watch it turn,' Duchamp would later say. It took a 1915 trip to New York, and exposure to the city's vast output of factory-built goods, for Duchamp to come up with the readymade term. More importantly, he began to see that making art in the traditional, handcrafted manner seemed pointless in the Industrial Age. Why bother, he posited, when widely available manufactured items could do the job. For Duchamp, the idea behind the artwork was more important than how it was made. This notion'perhaps the first real example of Conceptual Art'would utterly transform art history going forward. Much like an ordinary household object, however, the original Bicycle Wheel didn't survive: This version is actually a replica dating from 1951.",
       "image": "static/images/Ginevra.jpg",
       "price": 100.00
     },
     {
       "id": 38,
-      "title": "The Virgin and Child with Saint Anne (c. 1503–19)3",
+      "title": "The Virgin and Child with Saint Anne (c. 1503�19)3",
       "by_artist": "Leonardo da Vinci",
-      "description": "Some scholars believe that The Virgin and Child with Saint Anne was Leonardo’s last painting, and in this work he used many of the conventions that he had established throughout his career to depict three generations of the Holy Family—Saint Anne, her daughter, the Virgin Mary, and the Christ Child. Anne, at the apex of the pyramidal composition, watches Mary, who sits on her lap, as the Virgin tenderly restrains the Christ Child from mounting a lamb. Contrasting with the knowing infant Leonardo depicted in The Virgin of the Rocks, the Christ figure in the The Virgin and Child with Saint Anne appears innocent, demonstrating playful juvenile behavior and showing a trusting expression as he returns his mother’s gaze. The interactions between the figures feels intimate and reveals Leonardo’s ability to represent convincing human relationships.The painting also shows Leonardo’s lifelong interest in believably representing three-dimensional space on a two-dimensional surface. As in many of Leonardo’s paintings, the figures sit amid a fantastical landscape. Using aerial perspective, a technique that he wrote about in his Treatise on Painting, Leonardo created the illusion of distance by painting the rocky formations in the background so that they appear blue-gray and less detailed than the landscape of the foreground. He used this technique in many of the landscapes of his earlier works, including the Mona Lisa and The Virgin of the Rocks.",
+      "description": "Some scholars believe that The Virgin and Child with Saint Anne was Leonardo�s last painting, and in this work he used many of the conventions that he had established throughout his career to depict three generations of the Holy Family�Saint Anne, her daughter, the Virgin Mary, and the Christ Child. Anne, at the apex of the pyramidal composition, watches Mary, who sits on her lap, as the Virgin tenderly restrains the Christ Child from mounting a lamb. Contrasting with the knowing infant Leonardo depicted in The Virgin of the Rocks, the Christ figure in the The Virgin and Child with Saint Anne appears innocent, demonstrating playful juvenile behavior and showing a trusting expression as he returns his mother�s gaze. The interactions between the figures feels intimate and reveals Leonardo�s ability to represent convincing human relationships.The painting also shows Leonardo�s lifelong interest in believably representing three-dimensional space on a two-dimensional surface. As in many of Leonardo�s paintings, the figures sit amid a fantastical landscape. Using aerial perspective, a technique that he wrote about in his Treatise on Painting, Leonardo created the illusion of distance by painting the rocky formations in the background so that they appear blue-gray and less detailed than the landscape of the foreground. He used this technique in many of the landscapes of his earlier works, including the Mona Lisa and The Virgin of the Rocks.",
       "image": "static/images/The Virgin.jpg",
       "price": 100.00
     },
     {
       "id": 39,
-      "title": "Mona Lisa, 1503–19",
+      "title": "Mona Lisa, 1503-19",
       "by_artist": "Leonardo Da Vinci",
-      "description": "Painted between 1503 and 1517, Da Vinci’s alluring portrait has been dogged by two questions since the day it was made: Who’s the subject and why is she smiling? A number of theories for the former have been proffered over the years: That she’s the wife of the Florentine merchant Francesco di Bartolomeo del Giocondo (ergo, the work’s alternative title, La Gioconda); that she's Leonardo’s mother, Caterina, conjured from Leonardo's boyhood memories of her; and finally, that it's a self-portrait in drag. As for that famous smile, its enigmatic quality has driven people crazy for centuries. Whatever the reason, Mona Lisa’s look of preternatural calm comports with the idealized landscape behind her, which dissolves into the distance through Leonardo’s use of atmospheric perspective.",
+      "description": "Painted between 1503 and 1517, Da Vinci�s alluring portrait has been dogged by two questions since the day it was made: Who�s the subject and why is she smiling' A number of theories for the former have been proffered over the years: That she�s the wife of the Florentine merchant Francesco di Bartolomeo del Giocondo (ergo, the work�s alternative title, La Gioconda); that she's Leonardo�s mother, Caterina, conjured from Leonardo's boyhood memories of her; and finally, that it's a self-portrait in drag. As for that famous smile, its enigmatic quality has driven people crazy for centuries. Whatever the reason, Mona Lisa�s look of preternatural calm comports with the idealized landscape behind her, which dissolves into the distance through Leonardo�s use of atmospheric perspective.",
       "image": "static/images/Mona Lisa2.jpg",
       "price": 100.00
     },
@@ -307,7 +307,7 @@
       "id": 40,
       "title": "Girl with a Pearl Earring, 1665",
       "by_artist": "Johannes Vermeer",
-      "description": "Johannes Vermeer’s 1665 study of a young woman is startlingly real and startlingly modern, almost as if it were a photograph. This gets into the debate over whether or not Vermeer employed a pre-photographic device called a camera obscura to create the image. Leaving that aside, the sitter is unknown, though it’s been speculated that she might have been Vermeer's maid. He portrays her looking over her shoulder, locking her eyes with the viewer as if attempting to establish an intimate connection across the centuries. Technically speaking, Girl isn’t a portrait, but rather an example of the Dutch genre called a tronie—a headshot meant more as still life of facial features than as an attempt to capture a likeness.",
+      "description": "Johannes Vermeer�s 1665 study of a young woman is startlingly real and startlingly modern, almost as if it were a photograph. This gets into the debate over whether or not Vermeer employed a pre-photographic device called a camera obscura to create the image. Leaving that aside, the sitter is unknown, though it�s been speculated that she might have been Vermeer's maid. He portrays her looking over her shoulder, locking her eyes with the viewer as if attempting to establish an intimate connection across the centuries. Technically speaking, Girl isn�t a portrait, but rather an example of the Dutch genre called a tronie�a headshot meant more as still life of facial features than as an attempt to capture a likeness.",
       "image": "static/images/Earring.jpg",
       "price": 100.00
     },
@@ -315,23 +315,23 @@
       "id": 41,
       "title": "The Starry Night, 1889",
       "by_artist": "Vincent van Gogh",
-      "description": "Vincent Van Gogh’s most popular painting, The Starry Night was created by Van Gogh at the asylum in Saint-Rémy, where he’d committed himself in 1889. Indeed, The Starry Night seems to reflect his turbulent state of mind at the time, as the night sky comes alive with swirls and orbs of frenetically applied brush marks springing from the yin and yang of his personal demons and awe of nature.",
+      "description": "Vincent Van Gogh�s most popular painting, The Starry Night was created by Van Gogh at the asylum in Saint-R�my, where he�d committed himself in 1889. Indeed, The Starry Night seems to reflect his turbulent state of mind at the time, as the night sky comes alive with swirls and orbs of frenetically applied brush marks springing from the yin and yang of his personal demons and awe of nature.",
       "image": "static/images/Starry Night.jpg",
       "price": 100.00
     },
     {
       "id": 42,
-      "title": "The Kiss, 1907–1908",
+      "title": "The Kiss, 1907-1908",
       "by_artist": "Gustav Klimt",
-      "description": "Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt’s fin-de-siècle portrayal of intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau. Klimt depicts his subjects as mythical figures made modern by luxuriant surfaces of up-to-the moment graphic motifs. The work is a highpoint of the artist’s Golden Phase between 1899 and 1910 when he often used gold leaf—a technique inspired by a 1903 trip to the Basilica di San Vitale in Ravenna, Italy, where he saw the church’s famed Byzantine mosaics.",
+      "description": "Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt�s fin-de-si�cle portrayal of intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau. Klimt depicts his subjects as mythical figures made modern by luxuriant surfaces of up-to-the moment graphic motifs. The work is a highpoint of the artist�s Golden Phase between 1899 and 1910 when he often used gold leaf�a technique inspired by a 1903 trip to the Basilica di San Vitale in Ravenna, Italy, where he saw the church�s famed Byzantine mosaics.",
       "image": "static/images/kiss.jpg",
       "price": 100.00
     },
     {
       "id": 43,
-      "title": "The Birth of Venus, 1484–1486",
+      "title": "The Birth of Venus, 1484�1486",
       "by_artist": "Sandro Botticelli",
-      "description": "Botticelli’s The Birth of Venus was the first full-length, non-religious nude since antiquity, and was made for Lorenzo de Medici. It’s claimed that the figure of the Goddess of Love is modeled after one Simonetta Cattaneo Vespucci, whose favors were allegedly shared by Lorenzo and his younger brother, Giuliano. Venus is seen being blown ashore on a giant clamshell by the wind gods Zephyrus and Aura as the personification of spring awaits on land with a cloak. Unsurprisingly, Venus attracted the ire of Savonarola, the Dominican monk who led a fundamentalist crackdown on the secular tastes of the Florentines. His campaign included the infamous “Bonfire of the Vanities” of 1497, in which “profane” objects—cosmetics, artworks, books—were burned on a pyre. The Birth of Venus was itself scheduled for incineration, but somehow escaped destruction. Botticelli, though, was so freaked out by the incident that he gave up painting for a while.",
+      "description": "Botticelli's The Birth of Venus was the first full-length, non-religious nude since antiquity, and was made for Lorenzo de Medici. It�s claimed that the figure of the Goddess of Love is modeled after one Simonetta Cattaneo Vespucci, whose favors were allegedly shared by Lorenzo and his younger brother, Giuliano. Venus is seen being blown ashore on a giant clamshell by the wind gods Zephyrus and Aura as the personification of spring awaits on land with a cloak. Unsurprisingly, Venus attracted the ire of Savonarola, the Dominican monk who led a fundamentalist crackdown on the secular tastes of the Florentines. His campaign included the infamous �Bonfire of the Vanities� of 1497, in which �profane� objects�cosmetics, artworks, books�were burned on a pyre. The Birth of Venus was itself scheduled for incineration, but somehow escaped destruction. Botticelli, though, was so freaked out by the incident that he gave up painting for a while.",
       "image": "static/images/BirthVenus.jpg",
       "price": 100.00
     },
@@ -339,7 +339,7 @@
       "id": 44,
       "title": "Arrangement in Grey and Black No. 1, 1871",
       "by_artist": "James Abbott McNeill Whistler",
-      "description": "Whistler’s Mother, or Arrangement in Grey and Black No. 1, as it’s actually titled, speaks to the artist’s ambition to pursue art for art’s sake. James Abbott McNeill Whistler painted the work in his London studio in 1871, and in it, the formality of portraiture becomes an essay in form. Whistler’s mother Anna is pictured as one of several elements locked into an arrangement of right angles. Her severe expression fits in with the rigidity of the composition, and it’s somewhat ironic to note that despite Whistler’s formalist intentions, the painting became a symbol of motherhood.",
+      "description": "Whistler�s Mother, or Arrangement in Grey and Black No. 1, as it�s actually titled, speaks to the artist�s ambition to pursue art for art�s sake. James Abbott McNeill Whistler painted the work in his London studio in 1871, and in it, the formality of portraiture becomes an essay in form. Whistler�s mother Anna is pictured as one of several elements locked into an arrangement of right angles. Her severe expression fits in with the rigidity of the composition, and it�s somewhat ironic to note that despite Whistler�s formalist intentions, the painting became a symbol of motherhood.",
       "image": "static/images/greyandblack.jpg",
       "price": 100.00
     },
@@ -347,31 +347,31 @@
       "id": 45,
       "title": "The Arnolfini Portrait, 1434",
       "by_artist": "Jan van Eyck",
-      "description": "One of the most significant works produced during the Northern Renaissance, this composition is believed to be one of the first paintings executed in oils. A full-length double portrait, it reputedly portrays an Italian merchant and a woman who may or may not be his bride. In 1934, the celebrated art historian Erwin Panofsky proposed that the painting is actually a wedding contract. What can be reliably said is that the piece is one of the first depictions of an interior using orthogonal perspective to create a sense of space that seems contiguous with the viewer’s own; it feels like a painting you could step into.",
+      "description": "One of the most significant works produced during the Northern Renaissance, this composition is believed to be one of the first paintings executed in oils. A full-length double portrait, it reputedly portrays an Italian merchant and a woman who may or may not be his bride. In 1934, the celebrated art historian Erwin Panofsky proposed that the painting is actually a wedding contract. What can be reliably said is that the piece is one of the first depictions of an interior using orthogonal perspective to create a sense of space that seems contiguous with the viewer's own; it feels like a painting you could step into.",
       "image": "static/images/Arnolfini Portrait.jpg",
       "price": 100.00
     },
     {
       "id": 46,
-      "title": "The Garden of Earthly Delights, 1503–1515",
+      "title": "The Garden of Earthly Delights, 1503-1515",
       "by_artist": "Hieronymus Bosch",
-      "description": "This fantastical triptych is generally considered a distant forerunner to Surrealism. In truth, it’s the expression of a late medieval artist who believed that God and the Devil, Heaven and Hell were real. Of the three scenes depicted, the left panel shows Christ presenting Eve to Adam, while the right one features the depredations of Hell; less clear is whether the center panel depicts Heaven. In Bosch’s perfervid vision of Hell, an enormous set of ears wielding a phallic knife attacks the damned, while a bird-beaked bug king with a chamber pot for a crown sits on its throne, devouring the doomed before promptly defecating them out again. This riot of symbolism has been largely impervious to interpretation, which may account for its widespread appeal.",
+      "description": "This fantastical triptych is generally considered a distant forerunner to Surrealism. In truth, it�s the expression of a late medieval artist who believed that God and the Devil, Heaven and Hell were real. Of the three scenes depicted, the left panel shows Christ presenting Eve to Adam, while the right one features the depredations of Hell; less clear is whether the center panel depicts Heaven. In Bosch�s perfervid vision of Hell, an enormous set of ears wielding a phallic knife attacks the damned, while a bird-beaked bug king with a chamber pot for a crown sits on its throne, devouring the doomed before promptly defecating them out again. This riot of symbolism has been largely impervious to interpretation, which may account for its widespread appeal.",
       "image": "static/images/Delights.jpg",
       "price": 100.00
     },
     {
       "id": 47,
-      "title": "A Sunday Afternoon on the Island of La Grande Jatte, 1884–1886",
+      "title": "A Sunday Afternoon on the Island of La Grande Jatte, 1884-1886",
       "by_artist": "Georges Seurat",
-      "description": "Georges Seurat’s masterpiece, evoking the Paris of La Belle Epoque, is actually depicting a working-class suburban scene well outside the city’s center. Seurat often made this milieu his subject, which differed from the bourgeois portrayals of his Impressionist contemporaries. Seurat abjured the capture-the-moment approach of Manet, Monet and Degas, going instead for the sense of timeless permanence found in Greek sculpture. And that is exactly what you get in this frieze-like processional of figures whose stillness is in keeping with Seurat’s aim of creating a classical landscape in modern form.",
+      "description": "Georges Seurat's masterpiece, evoking the Paris of La Belle Epoque, is actually depicting a working-class suburban scene well outside the city�s center. Seurat often made this milieu his subject, which differed from the bourgeois portrayals of his Impressionist contemporaries. Seurat abjured the capture-the-moment approach of Manet, Monet and Degas, going instead for the sense of timeless permanence found in Greek sculpture. And that is exactly what you get in this frieze-like processional of figures whose stillness is in keeping with Seurat�s aim of creating a classical landscape in modern form.",
       "image": "static/images/AfternoonIsland.jpg",
       "price": 100.00
     },
     {
       "id": 48,
-      "title": "Les Demoiselles d’Avignon, 1907",
+      "title": "Les Demoiselles d'Avignon, 1907",
       "by_artist": "Pablo Picasso",
-      "description": "The ur-canvas of 20th-century art, Les Demoiselles d’Avignon ushered in the modern era by decisively breaking with the representational tradition of Western painting, incorporating allusions to the African masks that Picasso had seen in Paris's ethnographic museum at the Palais du Trocadro. Its compositional DNA also includes El Greco’s The Vision of Saint John (1608–14), now hanging in the Metropolitan Museum of Art. The women being depicted are actually prostitutes in a brothel in the artist's native Barcelona.",
+      "description": "The ur-canvas of 20th-century art, Les Demoiselles d�Avignon ushered in the modern era by decisively breaking with the representational tradition of Western painting, incorporating allusions to the African masks that Picasso had seen in Paris's ethnographic museum at the Palais du Trocadro. Its compositional DNA also includes El Greco�s The Vision of Saint John (1608�14), now hanging in the Metropolitan Museum of Art. The women being depicted are actually prostitutes in a brothel in the artist's native Barcelona.",
       "image": "static/images/Avignon.jpg",
       "price": 100.00
     },    
@@ -379,7 +379,7 @@
       "id": 49,
       "title": "The Harvesters, 1565",
       "by_artist": "Pieter Bruegel the Elder",
-      "description": "Bruegel’s fanfare for the common man is considered one of the defining works of Western art. This composition was one of six created on the theme of the seasons. The time is probably early September. A group of peasants on the left cut and bundle ripened wheat, while the on the right, another group takes their midday meal. One figure is sacked out under a tree with his pants unbuttoned. This attention to detail continues throughout the painting as a procession of ever-granular observations receding into space. It was extraordinary for a time when landscapes served mostly as backdrops for religious paintings.",
+      "description": "Bruegel�s fanfare for the common man is considered one of the defining works of Western art. This composition was one of six created on the theme of the seasons. The time is probably early September. A group of peasants on the left cut and bundle ripened wheat, while the on the right, another group takes their midday meal. One figure is sacked out under a tree with his pants unbuttoned. This attention to detail continues throughout the painting as a procession of ever-granular observations receding into space. It was extraordinary for a time when landscapes served mostly as backdrops for religious paintings.",
       "image": "static/images/Harvesters.jpg",
       "price": 100.00
     },
@@ -387,15 +387,15 @@
       "id": 50,
       "title": "Composition with Red Blue and Yellow, 1930",
       "by_artist": "Piet Mondrian, ",
-      "description": "A small painting (18 inches by 18 inches) that packs a big art-historical punch, Mondrian’s work represents a radical distillation of form, color and composition to their basic components. Limiting his palette to the primary triad (red, yellow and blue), plus black and white, Mondrian applied pigment in flat unmixed patches in an arrangement of squares and rectangles that anticipated Minimalism.",
+      "description": "A small painting (18 inches by 18 inches) that packs a big art-historical punch, Mondrian�s work represents a radical distillation of form, color and composition to their basic components. Limiting his palette to the primary triad (red, yellow and blue), plus black and white, Mondrian applied pigment in flat unmixed patches in an arrangement of squares and rectangles that anticipated Minimalism.",
       "image": "static/images/Composition.jpg",
       "price": 100.00
     },
     {
       "id": 51,
       "title": "Las Meninas, or The Family of King Philip IV",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
-      "description": "A painting of a painting within a painting, Velázquez masterpiece consists of different themes rolled into one: A portrait of Spain’s royal family and retinue in Velázquez’s studio; a self-portrait; an almost art-for-art’s-sake display of bravura brush work; and an interior scene, offering glimpses into Velázquez’s working life. Las Meninas is also a treatise on the nature of seeing, as well as a riddle confounding viewers about what exactly they’re looking at. It’s the visual art equivalent of breaking the fourth wall—or in this case, the studio’s far wall on which there hangs a mirror reflecting the faces of the Spanish King and Queen. Immediately this suggests that the royal couple is on our side of the picture plane, raising the question of where we are in relationship to them. Meanwhile, Velázquez’s full length rendering of himself at his easel begs the question of whether he’s looking in a mirror to paint the picture. In other words, are the subjects of Las Meninas (all of whom are fixing their gaze outside of the frame), looking at us, or looking at themselves?",
+      "by_artist": "Diego Rodr�guez de Silva y Vel�zquez",
+      "description": "A painting of a painting within a painting, Vel�zquez masterpiece consists of different themes rolled into one: A portrait of Spain�s royal family and retinue in Vel�zquez�s studio; a self-portrait; an almost art-for-art�s-sake display of bravura brush work; and an interior scene, offering glimpses into Vel�zquez�s working life. Las Meninas is also a treatise on the nature of seeing, as well as a riddle confounding viewers about what exactly they�re looking at. It�s the visual art equivalent of breaking the fourth wall�or in this case, the studio�s far wall on which there hangs a mirror reflecting the faces of the Spanish King and Queen. Immediately this suggests that the royal couple is on our side of the picture plane, raising the question of where we are in relationship to them. Meanwhile, Vel�zquez�s full length rendering of himself at his easel begs the question of whether he�s looking in a mirror to paint the picture. In other words, are the subjects of Las Meninas (all of whom are fixing their gaze outside of the frame), looking at us, or looking at themselves'",
       "image": "static/images/Family.jpg",
       "price": 100.00
     },
@@ -403,31 +403,31 @@
       "id": 52,
       "title": "Guernica, 1937",
       "by_artist": "Pablo Picasso",
-      "description": "Perhaps Picasso’s best-known painting, Guernica is an antiwar cris de coeur occasioned by the 1937 bombing of the eponymous Basque city during the Spanish Civil War by German and Italian aircraft allied with Fascist leader Francisco Franco. The leftist government that opposed him commissioned Picasso to created the painting for the Spanish Pavillion at 1937 World’s Fair in Paris. When it closed, Guernica went on an international tour, before winding up at the Museum of Modern Art in New York. Picasso loaned the painting to MoMA with the stipulation that it be returned to his native Spain once democracy was restored—which it was in 1981, six years after Franco's death in 1975 (Picasso himself died two years before that.) Today, the painting is housed at the Museo Nacional Centro de Arte Reina Sofía in Madrid.",
+      "description": "Perhaps Picasso�s best-known painting, Guernica is an antiwar cris de coeur occasioned by the 1937 bombing of the eponymous Basque city during the Spanish Civil War by German and Italian aircraft allied with Fascist leader Francisco Franco. The leftist government that opposed him commissioned Picasso to created the painting for the Spanish Pavillion at 1937 World�s Fair in Paris. When it closed, Guernica went on an international tour, before winding up at the Museum of Modern Art in New York. Picasso loaned the painting to MoMA with the stipulation that it be returned to his native Spain once democracy was restored�which it was in 1981, six years after Franco's death in 1975 (Picasso himself died two years before that.) Today, the painting is housed at the Museo Nacional Centro de Arte Reina Sof�a in Madrid.",
       "image": "static/images/Guernica.jpg",
       "price": 100.00
     },
     {
       "id": 53,
-      "title": "The Naked Maja, circa 1797–1800",
+      "title": "The Naked Maja, circa 1797�1800",
       "by_artist": "Francisco de Goya y Lucientes",
-      "description": "Definitely comfortable in her own skin, this female nude staring unashamedly at the viewer caused quite a stir when it was painted, and even got Goya into hot water with the Spanish Inquisition. Among other things, it features one of the first depictions of public hair in Western art. Commissioned by Manuel de Godoy, Spain’s Prime Minister, The Naked Maja was accompanied by another version with the sitter clothed. The identity of the woman remains a mystery, though she is most thought to be Godoy’s young mistress, Pepita Tudó.",
+      "description": "Definitely comfortable in her own skin, this female nude staring unashamedly at the viewer caused quite a stir when it was painted, and even got Goya into hot water with the Spanish Inquisition. Among other things, it features one of the first depictions of public hair in Western art. Commissioned by Manuel de Godoy, Spain�s Prime Minister, The Naked Maja was accompanied by another version with the sitter clothed. The identity of the woman remains a mystery, though she is most thought to be Godoy�s young mistress, Pepita Tud�.",
       "image": "static/images/Naked.jpg",
       "price": 100.00
     },
     {
       "id": 54,
       "title": "Grande Odalisque, 1814",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
-      "description": "Commissioned by Napoleon’s sister, Queen Caroline Murat of Naples, Grande Odalisque represented the artist’s break with the Neo-classical style he’d been identified with for much of his career. The work could be described as Mannerist, though it’s generally thought of as a transition to Romanticism, a movement that abjured Neo-classicalism’s precision, formality and equipoise in favor of eliciting emotional reactions from the viewer. This depiction of a concubine languidly posed on a couch is notable for her strange proportions. Anatomically incorrect, this enigmatic, uncanny figure was greeted with jeers by critics at the time, though it eventually became one of Ingres most enduring works.",
+      "by_artist": "Diego Rodr�guez de Silva y Vel�zquez",
+      "description": "Commissioned by Napoleon�s sister, Queen Caroline Murat of Naples, Grande Odalisque represented the artist�s break with the Neo-classical style he�d been identified with for much of his career. The work could be described as Mannerist, though it�s generally thought of as a transition to Romanticism, a movement that abjured Neo-classicalism�s precision, formality and equipoise in favor of eliciting emotional reactions from the viewer. This depiction of a concubine languidly posed on a couch is notable for her strange proportions. Anatomically incorrect, this enigmatic, uncanny figure was greeted with jeers by critics at the time, though it eventually became one of Ingres most enduring works.",
       "image": "static/images/Grande.jpg",
       "price": 100.00
     },
     {
       "id": 55,
       "title": "Liberty Leading the People, 1830",
-      "by_artist": "Eugène Delacroix",
-      "description": "Commemorating the July Revolution of 1830, which toppled King Charles X of France, Liberty Leading the People has become synonymous with the revolutionary spirit all over the world. Combining allegory with contemporary elements, the painting is a thrilling example of the Romantic style, going for the gut with its titular character brandishing the French Tricolor as members of different classes unite behind her to storm a barricade strewn with the bodies of fallen comrades. The image has inspired other works of art and literature, including the Statue of Liberty and Victor Hugo’s novel Les Misérables.",
+      "by_artist": "Eug�ne Delacroix",
+      "description": "Commemorating the July Revolution of 1830, which toppled King Charles X of France, Liberty Leading the People has become synonymous with the revolutionary spirit all over the world. Combining allegory with contemporary elements, the painting is a thrilling example of the Romantic style, going for the gut with its titular character brandishing the French Tricolor as members of different classes unite behind her to storm a barricade strewn with the bodies of fallen comrades. The image has inspired other works of art and literature, including the Statue of Liberty and Victor Hugo�s novel Les Mis�rables.",
       "image": "static/images/Revolution.jpg",
       "price": 100.00
     },
@@ -435,56 +435,81 @@
       "id": 56,
       "title": "Impression, Sunrise, 1874",
       "by_artist": "Claude Monet",
-      "description": "The defining figure of Impressionism, Monet virtually gave the movement its name with his painting of daybreak over the port of Le Havre, the artist’s hometown. Monet was known for his studies of light and color, and this canvas offers a splendid example with its flurry of brush strokes depicting the sun as an orange orb breaking through a hazy blue melding of water and sky.",
+      "description": "The defining figure of Impressionism, Monet virtually gave the movement its name with his painting of daybreak over the port of Le Havre, the artist�s hometown. Monet was known for his studies of light and color, and this canvas offers a splendid example with its flurry of brush strokes depicting the sun as an orange orb breaking through a hazy blue melding of water and sky.",
       "image": "static/images/Sunrise.jpg",
       "price": 100.00
     },
     {
       "id": 57,
-      "title": "Las Meninas, or The Family of King Philip IV",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
-      "description": "",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Creation of Adam",
+      "by_artist": "Michelangelo",
+      "description": "The painting takes a biblical narrative from the Book of Genesis, in which God gives life to Adam, the first man.This painting artwork portrays God and Adam with outstretched arms, their fingers nearly touching. It is perhaps, one of the most replicated religious images in history. Said to be Michelangelo�s greatest painting as well as his most famous artwork. The creation of Adam is a fresco painting, covering a section of the Sistine Chapel�s ceiling. It is not easy to interpret historical paintings in a contemporary context, but Michelangelo�s extensive grasp of human anatomy hints to the art historians that  For its exclusivity and complexity, The Creation Of Adams takes the 10th position among all the famous paintings.",
+      "image": "static/images/adam.jpg",
       "price": 100.00
     },
     {
       "id": 58,
-      "title": "Las Meninas, or The Family of King Philip IV",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
-      "description": "",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "The Persistence of Memory",
+      "by_artist": "Salvador Dali",
+      "description": "The Persistence of Memory is one of the most recognizable works of this Spanish artist and Surrealist icon.As a work, it has come to represent an entire movement of surrealism.Depicting a dismal shoreline draped with melting clocks,It brings an uncanny landscape to life with unnerving accuracy. Instead of rendering a fantastical world in hasty brushstrokes and arbitrary colors, Dal� painted familiar objects in unfamiliar ways. Although, it is said that Albert Einstein�s Theory of Relativity inspired this eccentric piece. No wonder bags a spot in the list of top famous paintings. This famous artwork attracts visitors from all over the world to the Museum of Modern Art, New York City.",
+      "image": "static/images/persistence.jpg",
       "price": 100.00
     },
     {
       "id": 59,
-      "title": "Las Meninas, or The Family of King Philip IV",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
-      "description": "",
-      "image": "static/images/BicycleWheel.jpg",
+      "title": "Egyptian Mask",
+      "by_artist": "unknown",
+      "description": "egyptian-mask-after-death-for-pharaohs",
+      "image": "static/images/egyptianmask.jpg",
       "price": 100.00
     },
     {
       "id": 60,
-      "title": "Las Meninas, or The Family of King Philip IV",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "title": "Egyptian Mask-Tutankhamen",
+      "by_artist": "The head mask of Tutankhamen",
       "description": "",
-      "image": "static/images/BicycleWheel.jpg",
+      "image": "static/images/604tutankhamen.png",
       "price": 100.00
     },    {
       "id": 61,
+      "title": "Asante Kente Design",
+      "by_artist": "unknown",
+      "description": "",
+      "image": "static/images/kente dsgn.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 62,
+      "title": "Baphomet-Bronze",
+      "by_artist": "Maxine-Miller",
+      "description": "",
+      "image": "static/images/Baphomet-Maxine-Miller-Bronze.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 63,
       "title": "Las Meninas, or The Family of King Philip IV",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "by_artist": "Diego Rodr�guez de Silva y Vel�zquez",
       "description": "",
       "image": "static/images/BicycleWheel.jpg",
       "price": 100.00
     },
     {
-      "id": 62,
+      "id": 64,
       "title": "Las Meninas, or The Family of King Philip IV",
-      "by_artist": "Diego Rodríguez de Silva y Velázquez",
+      "by_artist": "Diego Rodr�guez de Silva y Vel�zquez",
+      "description": "",
+      "image": "static/images/BicycleWheel.jpg",
+      "price": 100.00
+    },
+    {
+      "id": 65,
+      "title": "Las Meninas, or The Family of King Philip IV",
+      "by_artist": "Diego Rodr�guez de Silva y Vel�zquez",
       "description": "",
       "image": "static/images/BicycleWheel.jpg",
       "price": 100.00
     }
+
   ]
   

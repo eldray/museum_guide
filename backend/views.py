@@ -146,44 +146,127 @@ def search(request):
         'artworks': ArtworkSerializer(matched_artworks, many=True).data,
         'exhibits': ExhibitSerializer(matched_exhibits, many=True).data,
         'artists': ArtistSerializer(matched_artists, many=True).data,
-        'artists': MovementSerializer(matched_movements, many=True).data,
+        'movements': MovementSerializer(matched_movements, many=True).data,
     }
     
     return JsonResponse(search_results)
 
 
+
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.views import APIView
+from rest_framework.response import Response
+
+class MyAuthenticatedView(APIView):
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        # Your view logic here
+        return Response({"message": "Authenticated view"})
+
 from rest_framework import generics
-from .models import UserRegistration
-from .serializers import UserRegistrationSerializer
+from rest_framework.authtoken.models import Token
+from django.contrib.auth import authenticate, login
+from .models import UserRegistration, ArtistRegistration
+from .serializers import UserRegistrationSerializer, ArtistRegistrationSerializer
+
+from rest_framework.authtoken.models import Token
 
 class UserRegistrationCreateView(generics.CreateAPIView):
     queryset = UserRegistration.objects.all()
     serializer_class = UserRegistrationSerializer
 
-from rest_framework import generics
-from .models import ArtistRegistration
-from .serializers import ArtistRegistrationSerializer
+    def create(self, request, *args, **kwargs):
+        response = super().create(request, *args, **kwargs)
+        if response.status_code == 201:  # If user registration is successful
+            # Automatically log in the user
+            user = response.data.get('user')  # Get the user instance from the response data
+            if user is not None:
+                login(request, user)
+                token, _ = Token.objects.get_or_create(user=user)
+                response.data['token'] = token.key
+
+        return response
+
+
+# Add similar code to ArtistRegistrationCreateView
 
 class ArtistRegistrationCreateView(generics.CreateAPIView):
     queryset = ArtistRegistration.objects.all()
     serializer_class = ArtistRegistrationSerializer
 
+    def create(self, request, *args, **kwargs):
+        response = super().create(request, *args, **kwargs)
+        if response.status_code == 201:  # If artist registration is successful
+            # Automatically log in the artist
+            artist = self.perform_authentication(request)
+            if artist is not None:
+                login(request, artist)
+                token, _ = Token.objects.get_or_create(user=artist)
+                response.data['token'] = token.key
+
+        return response
+
+    def perform_authentication(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+        artist = authenticate(request, username=email, password=password)
+        return artist
+
+
 
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, login
+
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 
 class UserLoginView(APIView):
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
+
     def post(self, request):
         email = request.data.get('email')
         password = request.data.get('password')
-        user = authenticate(email=email, password=password)
+        user = authenticate(request, username=email, password=password)
 
-        if user:
-            return Response({'user_type': user.user_type}, status=status.HTTP_200_OK)
+        if user is not None and not hasattr(user, 'artist'):
+            login(request, user)
+            user_profile_instance = user.userprofile
+            serializer = UserProfileSerializer(user_profile_instance)
+            return Response({'user_type': 'user', 'user_profile': serializer.data}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
+from django.contrib.auth import authenticate, login
+
+class ArtistLoginView(APIView):
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+        artist = authenticate(request, username=email, password=password)
+
+        if artist is not None and hasattr(artist, 'artist'):
+            login(request, artist)
+            artist_profile_instance = artist.artist
+            serializer = ArtistProfileSerializer(artist_profile_instance)
+            return Response({'user_type': 'artist', 'user_profile': serializer.data}, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+
 
 # ...
 
@@ -203,7 +286,10 @@ class AddFavoriteExhibitView(APIView):
 class ArtistProfileView(generics.RetrieveUpdateAPIView):
     queryset = Artist.objects.all()
     serializer_class = ArtistProfileSerializer
-    # Implement permissions and authentication
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_object(self):
+        return self.request.user.artistprofile
 
 class UserProfileView(generics.RetrieveUpdateAPIView):
     serializer_class = UserProfileSerializer
@@ -213,8 +299,43 @@ class UserProfileView(generics.RetrieveUpdateAPIView):
         return self.request.user.userprofile
 
 
-# ... User Actions
+# Favorites Management
 
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .models import Exhibit, Artwork
+from .serializers import ExhibitSerializer, ArtworkSerializer
+
+class FavoritesView(APIView):
+    def get(self, request):
+        # Fetch favorite exhibits and artworks for the authenticated user
+        user = request.user
+        favorite_exhibits = Exhibit.objects.filter(favorites=user)
+        favorite_artworks = Artwork.objects.filter(favorites=user)
+        
+        exhibit_serializer = ExhibitSerializer(favorite_exhibits, many=True)
+        artwork_serializer = ArtworkSerializer(favorite_artworks, many=True)
+        
+        return Response({
+            'favoriteExhibits': exhibit_serializer.data,
+            'favoriteArtworks': artwork_serializer.data,
+        }, status=status.HTTP_200_OK)
+
+    def delete(self, request, type, id):
+        # Remove exhibit or artwork from user's favorites
+        user = request.user
+        if type == 'exhibit':
+            exhibit = Exhibit.objects.get(pk=id)
+            user.favorites.remove(exhibit)
+        elif type == 'artwork':
+            artwork = Artwork.objects.get(pk=id)
+            user.favorites.remove(artwork)
+        
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+# User Actions
 class AddFavoriteExhibitView(APIView):
     permission_classes = [permissions.IsAuthenticated]
 
