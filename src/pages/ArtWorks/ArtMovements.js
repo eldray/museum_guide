@@ -1,6 +1,5 @@
-import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-
+import axios from 'axios';
 
 const ArtMovements = () => {
   const [movements, setMovements] = useState([]);
@@ -17,19 +16,24 @@ const ArtMovements = () => {
   }, []);
 
   return (
-    <div className="container mx-auto mt-8">
-    <h2 className="text-3xl font-semibold mb-4 text-red-500 text-center">Art Movements</h2>
-    <div className="grid grid-cols-2 gap-4">
-      {movements.map((movement) => (
-        <div key={movement.id} className="border p-2">
-          <p className="text-red-500 text-2xl font-bold mt-2 mb-2">{movement.title}</p>
-            <img src={movement.image} 
-	   alt={movement.title} className="w-2/4" />
-            <p>Artists: {movement.artists}</p>
-            <p className="text-md text-gray-600 mb-2">Description: {movement.description}</p>
-        </div>
-      ))}
-    </div>
+    <div className="container mt-24">
+      <h2 className="text-3xl font-semibold mb-4 text-red-500 text-center">Art Movements</h2>
+      <div className="grid grid-cols-3 gap-4">
+        {movements.map((movement) => (
+          <div key={movement.id} className="container border p-4">
+            <div className="flex flex-col items-center">
+              <p className="text-red-500 text-2xl font-bold mt-2 mb-2 text-center">{movement.title}</p>
+              <img
+                src={movement.image}
+                alt={movement.title}
+                className="w-full h-100 object-cover"
+              />
+              <p className="text-md text-red-700 mb-2">Artists: {movement.artists}</p>
+              <p className="text-md text-gray-600">Description: {movement.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

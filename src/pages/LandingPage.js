@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Carousel from '../components/Carousel';
 import About from '../components/About';
 import Services from '../components/Services';
@@ -19,7 +19,6 @@ const LandingPage = () => {
       <FeaturedArtworks />
       <ContactForm />
 
-      {/* ... */}
     </div>
   );
 };

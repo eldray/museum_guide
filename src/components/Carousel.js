@@ -12,27 +12,27 @@ const images = [
   {
     src: image1,
     title: 'Image 1',
-    description: 'This is the description for Image 1.',
+    description: 'We believe in the power of digital art to inspire, provoke thought, and challenge conventions. Our services encompass a wide range of artistic styles and forms, from intricate digital paintings to mesmerizing generative art.',
   },
   {
     src: image2,
     title: 'Image 2',
-    description: 'This is the description for Image 2.',
+    description: 'We believe in the power of digital art to inspire, provoke thought, and challenge conventions. Our services encompass a wide range of artistic styles and forms, from intricate digital paintings to mesmerizing generative art.',
   },
   {
     src: image3,
     title: 'Image 3',
-    description: 'This is the description for Image 3.',
+    description: 'We believe in the power of digital art to inspire, provoke thought, and challenge conventions. Our services encompass a wide range of artistic styles and forms, from intricate digital paintings to mesmerizing generative art.',
   },
   {
     src: image4,
     title: 'Image 4',
-    description: 'This is the description for Image 4.',
+    description: 'We believe in the power of digital art to inspire, provoke thought, and challenge conventions. Our services encompass a wide range of artistic styles and forms, from intricate digital paintings to mesmerizing generative art.',
   },
   {
     src: image5,
     title: 'Image 5',
-    description: 'This is the description for Image 5.',
+    description: 'We believe in the power of digital art to inspire, provoke thought, and challenge conventions. Our services encompass a wide range of artistic styles and forms, from intricate digital paintings to mesmerizing generative art.',
   },
 ];
 
@@ -51,7 +51,7 @@ const Carousel = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNext, 5000); // Auto slide every 5 seconds
+    const interval = setInterval(handleNext, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -60,15 +60,15 @@ const Carousel = () => {
       <AnimatePresence initial={false} custom={currentIndex}>
         <motion.div
           key={currentIndex}
-          className="w-full h-100"
+          className="w-full"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
           <img src={images[currentIndex].src} alt={images[currentIndex].title} />
           <div className="absolute top-1/2 left-0 right-0 text-white text-center p-4">
-            <h1 className="text-3xl font-bold">{images[currentIndex].title}</h1>
-            <p className="text-xl">{images[currentIndex].description}</p>
+            <h1 className="text-red-500 text-5xl font-bold">{images[currentIndex].title}</h1>
+            <p className="text-gray-200 text-2xl">{images[currentIndex].description}</p>
           </div>
         </motion.div>
       </AnimatePresence>
@@ -83,7 +83,7 @@ const Carousel = () => {
         />
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex justify-center">
-        {images.map((image, index) => (
+        {images.map((_image, index) => (
           <div
             key={index}
             className={`w-3 h-2 mx-1 rounded-full ${

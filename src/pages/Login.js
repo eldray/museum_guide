@@ -1,90 +1,38 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import cover from '../components/images/cover.jpg'; 
+import ArtistLogin from './Artists/ArtistLogin';
+import UserLogin from './Users/UserLogin';
 
-const Login = () => {
-  const [formData, setFormData] = useState({
-    email: '',
-    password: '',
-  });
-  const history = useNavigate();
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-  
-    try {
-      const response = await axios.post('/api/login/', formData);
-      if (response.status === 200) {
-        const userType = response.data.user_type;
-        if (userType === 'artist') {
-          history('/artist-profile');
-        } else {
-          history('/user-profile');
-        }
-      } else {
-        console.error('Login failed');
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  };
-  
-
+const Register = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="bg-gray-700 p-6 rounded-lg border-red-500 w-96">
-        <h2 className="text-red-500 mb-4 text-center text-xl font-semibold">Login</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="mb-4">
-            <label htmlFor="email" className="block text-red-500 mb-1">
-              Email:
-            </label>
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className="w-full border rounded-lg px-3 py-2"
-            />
-          </div>
-          <div className="mb-6">
-            <label htmlFor="password" className="block text-red-500 mb-1">
-              Password:
-            </label>
-            <input
-              type="password"
-              name="password"
-              value={formData.password}
-              onChange={handleChange}
-              className="w-full border rounded-lg px-3 py-2"
-            />
-          </div>
-          <div className="flex justify-center">
-            <button
-              type="submit"
-              className="bg-red-500 hover:bg-black text-white px-4 py-2 rounded-lg"
-            >
-              Login
-            </button>
-          </div>
-        </form>
-        <p className="mt-4 text-center">
-          Don't have an account?{' '}
-          <Link to="/register" className="text-red-500">
-            Register
+    <div className="bg-gray-200 p-20">
+      <h2 className="text-2xl text-red-500 text-center mb-7">Log In to your Account</h2>
+      <div className="container mx-auto flex">
+        <div className="w-2/3">
+          <img
+            src={cover}
+            alt="company"
+            className="w-full rounded-lg object-cover"
+          />
+        </div>
+        <div className="bg-gray-200 p-5 h-10 flex">
+          <Link
+            to="/ArtistLogin"
+            className="bg-red-500 hover:bg-black text-white text-xl px-10 py-8 rounded-lg mr-4"
+          >
+            Artist Login
           </Link>
-        </p>
+          <Link
+            to="/UserLogin"
+            className="bg-red-500 hover:bg-black text-white text-xl px-10 py-8 rounded-lg"
+          >
+            User Login
+          </Link>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Login;
+export default Register;

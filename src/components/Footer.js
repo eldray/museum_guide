@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa';
 import axios from 'axios';
 
@@ -21,13 +22,15 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <ul className="flex space-x-4">
-          <li><a href="/" className="text-white hover:text-red-500">Home</a></li>
-          <li><a href="/ExhibitsList" className="text-white hover:text-red-500">Exhibits</a></li>
-          <li><a href="/Artworks-List" className="text-white hover:text-red-500">Artworks</a></li>
-          <li><a href="/Register" className="text-white hover:text-red-500">Sign Up</a></li>
+        <nav className="flex space-x-4">
+            <Link to="/" className="hover:text-red-500 text-sm">Home</Link>
+            <Link to="/ArtworksList" className="hover:text-red-500 text-sm">ArtWorks</Link>
+            <Link to="/ExhibitsList" className="hover:text-red-500 text-sm">Exhibits</Link>
+            <Link to="/UserProfile" className="hover:text-red-500 text-sm">UserProfile</Link>
+            <Link to="/ArtistProfile" className="hover:text-red-500 text-sm">ArtistProfile</Link>
+            <Link to="/Register" className="hover:text-red-500 text-sm">Sign Up</Link>
           {/* Add more menu links */}
-        </ul>
+        </nav>
         <div className="flex space-x-4">
           <FaFacebook className="text-3xl hover:text-red-500" />
           <FaTwitter className="text-3xl hover:text-red-500" />

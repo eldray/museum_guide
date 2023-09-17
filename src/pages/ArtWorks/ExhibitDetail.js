@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const ExhibitDetail = ({ exhibitId })=> {
-  console.log("ExhibitDetail component rendered");
-
+const ExhibitDetail = ({ match }) => {
+  const exhibitId = match.params.id;
   const [exhibit, setExhibit] = useState(null);
 
   useEffect(() => {
@@ -21,11 +20,10 @@ const ExhibitDetail = ({ exhibitId })=> {
   }
 
   return (
-    <div className="container mx-auto mt-8">
-    <h2 className="text-3xl font-semibold mb-4 text-red-500 text-center">Exhibit Detail </h2>
+    <div className="container mx-auto mt-16">
+      <h2 className="text-3xl font-semibold mb-4 text-red-500 text-center">Exhibit Detail</h2>
       <h2 className="text-2xl font-bold mb-2">{exhibit.title}</h2>
       <p className="text-gray-700">{exhibit.description}</p>
-      {/* Add navigation links to related exhibits or sections */}
     </div>
   );
 };

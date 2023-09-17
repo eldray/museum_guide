@@ -11,7 +11,7 @@ import team4 from '../components/images/team4.png';
 
 const AboutPage = () => {
   return (
-    <div className="py-12">
+    <div className="mt-12 py-12">
 
       <div className="container mx-auto">
       <h2 className="text-3xl font-bold text-red-500 my-4 text-center">About ArtVoyage</h2>
@@ -19,7 +19,7 @@ const AboutPage = () => {
           <img
             src={cover}
             alt="company"
-            className="w-full h-96 object-cover"
+            className="w-full h-100 object-cover"
           />
         </div>
 

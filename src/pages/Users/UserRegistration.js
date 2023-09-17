@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
@@ -24,9 +23,17 @@ const UserRegistration = () => {
 
     try {
       const response = await axios.post('http://localhost:8000/api/user/register/', formData);
+      console.log('Response:', response);
+      const { token, user_id } = response.data;
+      console.log('Token:', token);
+
+      // Store the token in localStorage
+      localStorage.setItem('token', token);
+      localStorage.setItem('user_id', user_id);
+
       if (response.status === 201) {
         // Successful registration
-        history('/login'); // Redirect to login page
+        history('/userlogin'); // Redirect to login page
       } else {
         // Handle error
         console.error('Registration failed');
@@ -40,7 +47,7 @@ const UserRegistration = () => {
     // ... JSX for the registration form
     <div className="flex justify-center items-center h-screen">
     <div className="bg-gray-700 p-6 rounded-lg border-red-500 w-96">
-      <h2 className="text-violet-500 text-center text-2xl mb-4">User Registration</h2>
+      <h2 className="text-red-500 text-center text-2xl mb-4">User Registration</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="space-y-2">
           <label htmlFor="username" className="text-white block">

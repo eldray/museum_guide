@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Formik, Form, Field } from 'formik';
@@ -9,9 +9,17 @@ const ArtistRegistration = () => {
   const handleSubmit = async (values) => {
     try {
       const response = await axios.post('/api/artist/register/', values);
+      const { token, user_id } = response.data;
+
+      // Store the token in localStorage
+      localStorage.setItem('token', token);
+      localStorage.setItem('user_id', user_id);
+
       if (response.status === 201) {
         // Successful registration
-        history('/login'); // Redirect to login page
+        const token = response.data.token; // Extract token from response
+        localStorage.setItem('token', token); // Store token in local storage
+        history('/artistlogin'); // Redirect to login page
       } else {
         // Handle error
       }
@@ -21,7 +29,7 @@ const ArtistRegistration = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mt-8 mb-8 ">
+    <div className="flex justify-center items-center mt-24 mb-8 ">
       <div className="bg-gray-700 p-6 rounded-lg border-red-500 w-96">
         <h2 className="text-red-500 text-center mb-4">Artist Registration</h2>
         <Formik

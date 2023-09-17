@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const UserLogin = () => {
+const ArtistLogin = () => {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -21,13 +21,13 @@ const UserLogin = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:8000/api/user/login/', formData, {
+      const response = await axios.post('http://localhost:8000/api/artist/login/', formData, {
         headers: {
           'Authorization': `Token ${localStorage.getItem('token')}`
         }
       });
       if (response.status === 200) {
-        history('/user-profile'); // Redirect to user profile
+        history('/artist-profile'); // Redirect to artist profile
       } else {
         console.error('Login failed');
       }
@@ -39,7 +39,7 @@ const UserLogin = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="bg-gray-700 p-6 rounded-lg border-red-500 w-96">
-        <h2 className="text-red-500 mb-4 text-center text-xl font-semibold">User Login</h2>
+        <h2 className="text-red-500 mb-4 text-center text-xl font-semibold">Artist Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="email" className="block text-red-500 mb-1">
@@ -79,4 +79,4 @@ const UserLogin = () => {
   );
 };
 
-export default UserLogin;
+export default ArtistLogin;

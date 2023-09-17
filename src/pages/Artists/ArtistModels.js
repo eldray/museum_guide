@@ -21,15 +21,15 @@ const ArtistModels = () => {
   }, []);
 
   return (
-    <div className="container mx-auto mt-8">
-      <h2 className="text-2xl font-semibold mb-4">Artists In Our Gallery</h2>
+    <div className="container mt-24">
+      <h2 className="text-3xl font-semibold mb-4 text-red-500 text-center">Artists In Our Gallery</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {artistModels.map((artistModel) => (
           <div key={artistModel.id} className="bg-white rounded-lg shadow-lg">
             <img
               src={artistModel.image_path}
               alt={artistModel.name}
-              className="w-full h-48 object-cover rounded-t-lg"
+              className="w-full h-60 object-cover rounded-t-lg"
             />
             <div className="p-4">
               <h3 className="text-lg text-red-500 font-semibold mb-2">{artistModel.name}</h3>

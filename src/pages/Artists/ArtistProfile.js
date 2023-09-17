@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import api from '../../components/Api';
 
 const ArtistProfile = () => {
   const [artistData, setArtistData] = useState(null);
@@ -10,7 +11,7 @@ const ArtistProfile = () => {
   useEffect(() => {
     const fetchArtistData = async () => {
       try {
-        const response = await axios.get('/api/artist/profile/');
+        const response = await api.get('/artist/profile/');
         setArtistData(response.data);
         setArtworks(response.data.artworks);
       } catch (error) {
@@ -43,8 +44,18 @@ const ArtistProfile = () => {
     }
   };
 
+  const handleProfileUpdate = async (formData) => {
+    try {
+      const response = await axios.patch('/api/artist/profile/', formData);
+      setArtistData(response.data);
+      setIsPopupOpen(false);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
-    <div className="flex">
+    <div className="flex mt-16">
       <div className="w-1/4 bg-red-500 p-4 text-white">
         <h2 className="bg-ash p-2">Artist Profile</h2>
         <p>Name: {artistData?.name}</p>
@@ -61,7 +72,7 @@ const ArtistProfile = () => {
         </button>
       </div>
       <div className="w-3/4 p-4">
-        <h2 className="bg-ash p-2">Your Artworks</h2>
+        <h2 className="bg-gray-200 p-2">Your Artworks</h2>
         <form onSubmit={handleArtworkSubmit} className="mb-4">
           <label>
             Title:
@@ -86,6 +97,7 @@ const ArtistProfile = () => {
           </button>
         </form>
         <div className="grid grid-cols-2 gap-4">
+          {/* ... (existing artworks display) */}
           {artworks.map((artwork) => (
             <div key={artwork.id} className="border p-2">
               <img src={artwork.image} alt={artwork.title} className="w-full" />
@@ -97,8 +109,38 @@ const ArtistProfile = () => {
       {isPopupOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-4">
-            {/* Update profile form */}
-            {/* You can create the form inputs here */}
+            <h2 className="bg-ash p-2">Update Profile</h2>
+            <form onSubmit={(e) => { e.preventDefault(); handleProfileUpdate(new FormData(e.target)); }}>
+              <label>
+                Name:
+                <input
+                  type="text"
+                  name="name"
+                  defaultValue={artistData?.name}
+                  className="border rounded p-1"
+                />
+              </label>
+              <label>
+                Biography:
+                <textarea
+                  name="biography"
+                  defaultValue={artistData?.biography}
+                  className="border rounded p-1"
+                />
+              </label>
+              <label>
+                Profile Picture:
+                <input
+                  type="file"
+                  accept="image/*"
+                  name="profilePicture"
+                  className="border rounded p-1"
+                />
+              </label>
+              <button type="submit" className="bg-red-700 px-2 py-1 mt-2">
+                Save
+              </button>
+            </form>
             <button onClick={() => setIsPopupOpen(false)} className="mt-2">
               Close
             </button>

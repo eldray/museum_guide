@@ -51,7 +51,7 @@ const FeaturedArtworks = () => {
               <img
                 src={artworks.image_url}
                 alt={artworks.title}
-                className="rounded-lg mb-2 w-full h-48 object-cover"
+                className="rounded-lg mb-2 w-full h-60 object-cover"
               />
               <h3 className="text-lg font-semibold text-center hover:text-red-500">
                 {artworks.title}
